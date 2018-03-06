@@ -1,44 +1,44 @@
 from flask import Flask
+from flask import request
 
-# print a nice greeting.
-def say_hello(username = "World"):
-    return '<p>Hello %s!</p>\n' % username
-
-def say_breed(breed = 'null')
-    return '<p>Breed is %s!</p>\n' % breed
-
-# some bits of text for the page.
-header_text = '''
-    <html>\n<head> <title>EB Flask Test</title> </head>\n<body>'''
-
-instructions = '''
-    <p><em>Hint</em>: This is a RESTful web service! Append a username
-    to the URL (for example: <code>/Thelonious</code>) to say hello to
-    someone specific.</p>\n'''
-
-home_link = '<p><a href="/">Back</a></p>\n'
-footer_text = '</body>\n</html>'
-
-# EB looks for an 'application' callable by default.
 application = Flask(__name__)
 
-# add a rule for the index page.
-application.add_url_rule('/', 'index', (lambda: header_text +
-    say_hello() + instructions + footer_text))
+#routing rule and logic of breedSearch
+#currently it just extracts URL from data section and sends the URL back to sender
+#test Success case: you post with URL in body, and get that same URL back
+@application.route('/breedSearch',methods=['POST'])
+def breedSearch():
+    URL=request.form.keys()[0]#this line may change based on exactly how the incoming format is    
+    #TODO get img from url
+    #TODO query model with img
+    return '{URL : %s}' % URL
+    # return '{BREED : %s' % search_result
 
-# add a rule when the page is accessed with a name appended to the site
-# URL.
-application.add_url_rule('/<username>', 'hello', (lambda username:
-    header_text + say_hello(username) + home_link + footer_text))
+# routing rule and logic for wiki search
+application.add_url_rule('/getWikiInfo/<breed>','wiki',(lambda breed: getWikiInfo(breed)))
+def getWikiInfo(breed):
+    #TODO wiki API get first 1 or 2 paragraphs from wiki
+    #TODO package to send
+    return '{breed: %s}' % breed
+    # return '{results: %s}' % formatted_results
+
+#routing and logic for petfinder search
+#requires breed name, and lat/longitude(or city state? doesnt matter atm)
+application.add_url_rule('/getPFinfo/<breed>/<lat>/<long>','pf',(lambda breed,lat,long: get_PFinfo(breed,lat,long)))
+def get_PFinfo(breed='null',lat='null', long='null'):
+    #TODO petfinder API to pull search results
+    #TODO package to send
+    return '{breed: %s , lat: %s, long: %s}'% (breed,lat,long)
+    # return '{results: %s}' % formatted_results
+
+#routing rule and logic for home page
+#TODO get web_squad html's, should return their landing page
+application.add_url_rule('/', 'index', (lambda: homePage()))   
+def homePage(username = "World"):
+    return 'TODO homepage'
+    # return render_template('index.html')
 
 
-application.add_url_rule('/getWikiInfo/<breed>','wiki',(lambda breed:
-    say_breed(breed)))
-
-
-# run the app.
 if __name__ == "__main__":
-    # Setting debug to True enables debug output. This line should be
-    # removed before deploying a production app.
     application.debug = True
     application.run()

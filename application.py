@@ -1,5 +1,11 @@
 from flask import Flask
 from flask import request
+#breedSearch POST test, curl --data "www.imgurl.io/img" 127.0.0.1:5000/breedSearch
+    #should return www.imgurl.io/img" to client, in the future it would be a breed string
+#wikiInfo GET test, curl 127.0.0.1:5000/getWikiInfo/labrador
+    #should return {breed: labrador} to client, in the future it would be a buncha wiki info
+#get_PFinfo GET test, curl 127.0.1:5000/getPFinfo/lab/100/200
+    #should return {breed: lab, lat:100, long:200} to client. in the future it would be some json list or something
 
 application = Flask(__name__)
 

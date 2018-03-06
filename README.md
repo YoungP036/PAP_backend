@@ -1,2 +1,2 @@
 # PAP_backend
-flask server for senior project
+Requires python with flask installed

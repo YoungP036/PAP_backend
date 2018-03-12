@@ -1,5 +1,12 @@
 from flask import Flask
 from flask import request
+
+#GET IMAGE FROM URL
+# import requests
+# url = 'http://google.com/favicon.ico'
+# r = requests.get(url, allow_redirects=True)
+# open('google.ico', 'wb').write(r.content)
+
 #breedSearch POST test, curl --data "www.imgurl.io/img" 127.0.0.1:5000/breedSearch
     #should return www.imgurl.io/img" to client, in the future it would be a breed string
 #wikiInfo GET test, curl 127.0.0.1:5000/getWikiInfo/labrador
@@ -16,6 +23,8 @@ application = Flask(__name__)
 def breedSearch():
     URL=request.form.keys()[0]#this line may change based on exactly how the incoming format is    
     #TODO get img from url
+	#TODO get wiki
+	#TODO maybe petfinder
     #TODO query model with img
     return '{URL : %s}' % URL
     # return '{BREED : %s' % search_result

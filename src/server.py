@@ -21,14 +21,15 @@ application = Flask(__name__)
 #test Success case: you post with URL in body, and get that same URL back
 @application.route('/breedSearch',methods=['POST'])
 def breedSearch():
-	URL=request.form.keys()[0]#this line may change based on exactly how the incoming format is    
+	print("req.form: " + str(request.form['URL']))
+	URL=request.form['URL']
 	#TODO get img from url
 	#TODO get wiki
 	#TODO maybe petfinder
 	#TODO query model with img
 	print("Breed search activated!")
-	dbg='{URL : %s}' % URL
-	print(dbg)
+	# dbg='{URL : %s}' % URL
+	# print(dbg)
 	return '{URL : %s}' % URL
 
 # routing rule and logic for wiki search

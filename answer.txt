@@ -1,0 +1,6 @@
+                       breed      prob
+3                   airedale  0.981874
+57             irish_terrier  0.010737
+83                otterhound  0.004826
+118  wire-haired_fox_terrier  0.000576
+48           giant_schnauzer  0.000543

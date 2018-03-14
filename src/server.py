@@ -21,7 +21,8 @@ application = Flask(__name__)
 #test Success case: you post with URL in body, and get that same URL back
 @application.route('/breedSearch',methods=['POST'])
 def breedSearch():
-	URL=request.form.keys()[0]#this line may change based on exactly how the incoming format is    
+	URL=request.form.keys()[0]#this line may change based on exactly how the incoming format is
+	#URL=request.form.keys()[1]
 	#TODO get img from url
 	#TODO get wiki
 	#TODO maybe petfinder

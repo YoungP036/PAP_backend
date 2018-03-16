@@ -1,6 +1,7 @@
 from flask import Flask
 from flask import request
 import requests
+from API.petfinderManager import pfManager
 #GET IMAGE FROM URL
 # import requests
 
@@ -43,10 +44,7 @@ def getWikiInfo(breed):
 #requires breed name, and lat/longitude(or city state? doesnt matter atm)
 application.add_url_rule('/getPFinfo/<breed>/<zipcode>','pf',(lambda breed,zipcode: get_PFinfo(breed,zipcode)))
 def get_PFinfo(breed='null',zipcode='null'):
-    #TODO petfinder API to pull search results
-    #TODO package to send
-    return '{breed: %s , zipcode: %s}'% (breed,zipcode)
-    # return '{results: %s}' % formatted_results
+    return pfManager().getPFData(breed,zipcode)
 
 #routing rule and logic for home page
 #TODO get web_squad html's, should return their landing page

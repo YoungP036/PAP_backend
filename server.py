@@ -1,11 +1,7 @@
 from flask import Flask
 from flask import request
-import requests
 from API.petfinderManager import pfManager
-#GET IMAGE FROM URL
-# import requests
-
-
+from model.ModelManager import mManager
 #breedSearch POST test, curl --data "www.imgurl.io/img" 127.0.0.1:5000/breedSearch
     #should return www.imgurl.io/img" to client, in the future it would be a breed string
 #wikiInfo GET test, curl 127.0.0.1:5000/getWikiInfo/labrador
@@ -16,21 +12,12 @@ from API.petfinderManager import pfManager
 application = Flask(__name__)
 
 #routing rule and logic of breedSearch
-#currently it just extracts URL from data section and sends the URL back to sender
-#test Success case: you post with URL in body, and get that same URL back
 @application.route('/breedSearch',methods=['POST'])
 def breedSearch():
-	print("req.form: " + str(request.form['URL']))
-	URL=request.form['URL']
-	# path=getImage(URL)
-	#TODO get img from url
-	#TODO query model with img
-
-    #OPTIONAL/UNDECIDED TODOS
-    	#TODO get wiki
-	    #TODO maybe get petfinder
-	print("Breed search activated!")
-	return '{URL : %s}' % URL
+    URL=request.form['URL']
+    results=mManager().queryModel(URL)
+    print("Breed search activated!")
+    return results
 
 # routing rule and logic for wiki search
 application.add_url_rule('/getWikiInfo/<breed>','wiki',(lambda breed: getWikiInfo(breed)))
@@ -51,11 +38,7 @@ def get_PFinfo(breed='null',zipcode='null'):
 application.add_url_rule('/', 'index', (lambda: homePage()))   
 def homePage(username = "World"):
     return 'TODO homepage'
-    # return render_template('index.html')
 
-def getImage(URL):
-	r = requests.get(URL, allow_redirects=True)
-	open(URL, 'wb').write(r.content)
 if __name__ == "__main__":
     application.debug = True
     application.run()

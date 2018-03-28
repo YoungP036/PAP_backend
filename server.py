@@ -1,6 +1,4 @@
 from flask import Flask
-from flask import request
-from API.petfinderManager import pfManager
 from model.ModelManager import mManager
 
 application = Flask(__name__)

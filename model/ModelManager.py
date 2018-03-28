@@ -19,16 +19,16 @@ class mManager:
 		data=classify('file', path)
 		os.remove(path)
 		#using the data returned by the model, select the top 5 results and package them into dictionary
-		r={}
+		
 		i=0
 		for index,row in data.iterrows():
-			if i<=5:
-				r[row['breed']]=row['prob']
+			if i<=0:
+				r=row['breed']
 				i+=1
 
 		#package dictionary into JSON string
-		results=json.dumps(r)
-		return results
+		#results=json.dumps(r)
+		return r
 	
 	def getImage(self, URL):
 		r = requests.get(URL, allow_redirects=True)

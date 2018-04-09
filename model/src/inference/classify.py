@@ -30,7 +30,7 @@ def infer(model_name, img_raw):
         # print(breeds)
 
         df = pd.DataFrame(data={'prob': probs.reshape(-1), 'breed': breeds})
-        print(df.sort_values(['prob'], ascending=False))
+       # print(df.sort_values(['prob'], ascending=False))
 
         return df.sort_values(['prob'], ascending=False)
 
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     src = sys.argv[1]
     path = sys.argv[2] # uri to a dog image to classify
     probs = classify(src, path)
-    print("Querying: " + os.path.basename(path))
+    #print("Querying: " + os.path.basename(path))
     # print(probs.sort_values(['prob'], ascending=False).take(range(5)))
-    print("\n\n")
+    #print("\n\n")
 

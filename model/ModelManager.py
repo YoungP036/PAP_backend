@@ -23,8 +23,11 @@ class mManager:
 		i=0
 		for index,row in data.iterrows():
 			if i<=0:
-				r=row['breed']
-				i+=1
+                                if row['prob'] > 0.6:
+			            	r=row['breed']
+                                else:
+                                        r = 'Model cannot identify the breed'
+			i+=1
 
 		#package dictionary into JSON string
 		#results=json.dumps(r)

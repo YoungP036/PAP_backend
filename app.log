@@ -1,4 +1,4 @@
-*** Starting uWSGI 2.0.17 (64bit) on [Mon Apr  9 02:10:26 2018] ***
+*** Starting uWSGI 2.0.17 (64bit) on [Tue Apr 10 01:21:31 2018] ***
 compiled with version: 5.4.0 20160609 on 30 March 2018 21:01:24
 os: Linux-4.4.0-1052-aws #61-Ubuntu SMP Mon Feb 12 23:05:58 UTC 2018
 nodename: ip-172-31-44-246
@@ -17,129 +17,63 @@ lock engine: pthread robust mutexes
 thunder lock: disabled (you can enable it with --thunder-lock)
 uwsgi socket 0 bound to TCP address 127.0.0.1:3033 fd 3
 Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
-*** Python threads support is disabled. You can enable it with --enable-threads ***
-Python main interpreter initialized at 0x1861f30
+Python main interpreter initialized at 0x1a27fb0
+python threads support enabled
 your server socket listen backlog is limited to 100 connections
 your mercy for graceful operations on workers is 60 seconds
 mapped 145808 bytes (142 KB) for 1 cores
 *** Operational MODE: single process ***
 added /home/test/PAP_backend/ to pythonpath.
-WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x1861f30 pid: 16852 (default app)
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x1a27fb0 pid: 18988 (default app)
 mountpoint  already configured. skip.
 *** uWSGI is running in multiple interpreter mode ***
-spawned uWSGI master process (pid: 16852)
-spawned uWSGI worker 1 (pid: 16860, cores: 1)
-2018-04-09 02:10:38.043798: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2018-04-09 02:10:39.223127: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
-[pid: 16860|app: 0|req: 1/1] 73.188.16.47 () {44 vars in 715 bytes} [Mon Apr  9 02:10:37 2018] POST / => generated 1630 bytes in 3615 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 2/2] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:12:10 2018] POST / => generated 51 bytes in 2729 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 3/3] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:12:19 2018] POST / => generated 51 bytes in 2186 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 4/4] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:13:41 2018] POST / => generated 1507 bytes in 3431 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 5/5] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:13:52 2018] POST / => generated 2142 bytes in 2265 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 6/6] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:14:03 2018] POST / => generated 4020 bytes in 2990 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 7/7] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:14:12 2018] POST / => generated 2790 bytes in 2817 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 8/8] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:14:33 2018] POST / => generated 656 bytes in 2954 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 9/9] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:14:45 2018] POST / => generated 3972 bytes in 2806 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 10/10] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:14:54 2018] POST / => generated 656 bytes in 1988 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 11/11] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:15:03 2018] POST / => generated 2775 bytes in 2284 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 12/12] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:16:11 2018] POST / => generated 2927 bytes in 2914 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 13/13] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:17:01 2018] POST / => generated 1711 bytes in 2595 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 14/14] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:17:21 2018] POST / => generated 51 bytes in 2299 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 15/15] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:17:30 2018] POST / => generated 911 bytes in 2710 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16860|app: 0|req: 16/16] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:17:43 2018] POST / => generated 911 bytes in 2266 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-DAMN ! worker 1 (pid: 16860) died, killed by signal 9 :( trying respawn ...
-Respawned uWSGI worker 1 (new pid: 16889)
-2018-04-09 02:18:44.475132: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2018-04-09 02:18:46.111255: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
-[pid: 16889|app: 0|req: 18/17] 71.224.176.110 () {44 vars in 717 bytes} [Mon Apr  9 02:18:44 2018] POST / => generated 798 bytes in 3576 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16889|app: 0|req: 19/18] 71.224.176.110 () {44 vars in 717 bytes} [Mon Apr  9 02:18:49 2018] POST / => generated 798 bytes in 2628 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-DAMN ! worker 1 (pid: 16889) died, killed by signal 9 :( trying respawn ...
-Respawned uWSGI worker 1 (new pid: 16892)
-2018-04-09 02:18:58.284964: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2018-04-09 02:18:59.847790: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
-[pid: 16892|app: 0|req: 21/19] 71.224.176.110 () {44 vars in 717 bytes} [Mon Apr  9 02:18:57 2018] POST / => generated 798 bytes in 3367 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16892|app: 0|req: 22/20] 71.224.176.110 () {44 vars in 717 bytes} [Mon Apr  9 02:19:03 2018] POST / => generated 798 bytes in 2343 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-DAMN ! worker 1 (pid: 16892) died, killed by signal 9 :( trying respawn ...
-Respawned uWSGI worker 1 (new pid: 16895)
-2018-04-09 02:19:12.347358: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2018-04-09 02:19:13.902072: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
-[pid: 16895|app: 0|req: 24/21] 71.224.176.110 () {44 vars in 717 bytes} [Mon Apr  9 02:19:11 2018] POST / => generated 798 bytes in 3360 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 25/22] 71.224.176.110 () {44 vars in 717 bytes} [Mon Apr  9 02:19:16 2018] POST / => generated 798 bytes in 2563 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 26/23] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:22:24 2018] POST / => generated 911 bytes in 3649 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 27/24] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:22:54 2018] POST / => generated 51 bytes in 2619 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 28/25] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:23:05 2018] POST / => generated 2239 bytes in 3634 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 29/26] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:23:19 2018] POST / => generated 2182 bytes in 2893 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 30/27] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:23:27 2018] POST / => generated 3363 bytes in 3276 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 31/28] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:23:47 2018] POST / => generated 2182 bytes in 2347 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 32/29] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:23:59 2018] POST / => generated 2204 bytes in 2805 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 33/30] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:24:13 2018] POST / => generated 51 bytes in 2406 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 34/31] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:24:28 2018] POST / => generated 656 bytes in 4730 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 35/32] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:25:06 2018] POST / => generated 656 bytes in 3825 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 36/33] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 02:25:44 2018] POST / => generated 656 bytes in 2851 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 37/34] 172.56.29.75 () {38 vars in 498 bytes} [Mon Apr  9 02:34:25 2018] POST / => generated 687 bytes in 3833 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 38/35] 172.56.29.75 () {38 vars in 498 bytes} [Mon Apr  9 02:40:00 2018] POST / => generated 51 bytes in 3362 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16895|app: 0|req: 39/36] 172.56.29.75 () {38 vars in 498 bytes} [Mon Apr  9 02:40:29 2018] POST / => generated 51 bytes in 2910 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-DAMN ! worker 1 (pid: 16895) died, killed by signal 9 :( trying respawn ...
-Respawned uWSGI worker 1 (new pid: 16901)
-2018-04-09 02:40:47.353220: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2018-04-09 02:40:48.919766: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
-[pid: 16901|app: 0|req: 41/37] 172.56.29.75 () {38 vars in 498 bytes} [Mon Apr  9 02:40:46 2018] POST / => generated 51 bytes in 2872 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16901|app: 0|req: 42/38] 172.56.29.75 () {38 vars in 498 bytes} [Mon Apr  9 02:41:40 2018] POST / => generated 51 bytes in 2446 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16901|app: 0|req: 43/39] 71.185.32.182 () {38 vars in 499 bytes} [Mon Apr  9 02:42:41 2018] POST / => generated 51 bytes in 2467 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16901|app: 0|req: 44/40] 71.185.32.182 () {38 vars in 499 bytes} [Mon Apr  9 02:43:11 2018] POST / => generated 51 bytes in 2753 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-DAMN ! worker 1 (pid: 16901) died, killed by signal 9 :( trying respawn ...
-Respawned uWSGI worker 1 (new pid: 16963)
-2018-04-09 03:52:37.169278: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2018-04-09 03:52:38.788286: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
-[pid: 16963|app: 0|req: 46/41] 71.224.176.110 () {44 vars in 717 bytes} [Mon Apr  9 03:52:36 2018] POST / => generated 798 bytes in 3636 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 47/42] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 03:58:43 2018] POST / => generated 656 bytes in 2931 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 48/43] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:01:46 2018] POST / => generated 51 bytes in 2825 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 49/44] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:02:02 2018] POST / => generated 656 bytes in 2847 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 50/45] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:07:32 2018] POST / => generated 656 bytes in 2830 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 51/46] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:07:40 2018] POST / => generated 656 bytes in 2807 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 52/47] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:07:48 2018] POST / => generated 656 bytes in 3019 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 53/48] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:08:11 2018] POST / => generated 656 bytes in 2888 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 54/49] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:08:19 2018] POST / => generated 656 bytes in 2952 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 55/50] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:08:27 2018] POST / => generated 656 bytes in 2782 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 56/51] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:08:35 2018] POST / => generated 656 bytes in 3108 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 57/52] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:08:43 2018] POST / => generated 656 bytes in 3147 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 58/53] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:08:52 2018] POST / => generated 51 bytes in 2769 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 59/54] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:09:01 2018] POST / => generated 656 bytes in 2475 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 60/55] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:09:11 2018] POST / => generated 2239 bytes in 2890 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 61/56] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:09:20 2018] POST / => generated 51 bytes in 2462 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 62/57] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:09:31 2018] POST / => generated 51 bytes in 2100 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 63/58] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:09:42 2018] POST / => generated 2774 bytes in 3314 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 64/59] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:09:51 2018] POST / => generated 51 bytes in 2062 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 65/60] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:10:00 2018] POST / => generated 51 bytes in 2625 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 66/61] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:10:09 2018] POST / => generated 656 bytes in 2201 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 67/62] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:10:17 2018] POST / => generated 656 bytes in 2204 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 68/63] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:10:24 2018] POST / => generated 4638 bytes in 2518 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 69/64] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:10:31 2018] POST / => generated 1610 bytes in 2083 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 70/65] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:10:38 2018] POST / => generated 51 bytes in 2299 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 71/66] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:10:48 2018] POST / => generated 51 bytes in 2018 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 72/67] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:10:56 2018] POST / => generated 51 bytes in 2537 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 73/68] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:11:04 2018] POST / => generated 1533 bytes in 2327 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 74/69] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:11:12 2018] POST / => generated 51 bytes in 1998 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 75/70] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:11:21 2018] POST / => generated 656 bytes in 2481 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 76/71] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:11:29 2018] POST / => generated 656 bytes in 2150 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 77/72] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:11:48 2018] POST / => generated 656 bytes in 2277 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 78/73] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:11:57 2018] POST / => generated 2790 bytes in 1918 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 79/74] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:12:05 2018] POST / => generated 2785 bytes in 2310 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 80/75] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:17:05 2018] POST / => generated 4541 bytes in 3195 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 81/76] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:17:16 2018] POST / => generated 1411 bytes in 2603 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 82/77] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:27:20 2018] POST / => generated 1418 bytes in 2595 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 83/78] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:28:28 2018] POST / => generated 51 bytes in 3451 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 84/79] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:28:38 2018] POST / => generated 2623 bytes in 3461 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 85/80] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:28:48 2018] POST / => generated 51 bytes in 3204 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 86/81] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:28:57 2018] POST / => generated 2629 bytes in 3819 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 87/82] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:29:07 2018] POST / => generated 51 bytes in 2842 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 88/83] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:29:16 2018] POST / => generated 51 bytes in 3632 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 89/84] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:29:25 2018] POST / => generated 51 bytes in 3248 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 90/85] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:29:34 2018] POST / => generated 2025 bytes in 2949 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 91/86] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:29:45 2018] POST / => generated 2609 bytes in 2217 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 92/87] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:29:54 2018] POST / => generated 2645 bytes in 2130 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 93/88] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:30:06 2018] POST / => generated 51 bytes in 2585 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 94/89] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:30:15 2018] POST / => generated 3238 bytes in 2200 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+spawned uWSGI master process (pid: 18988)
+spawned uWSGI worker 1 (pid: 18996, cores: 1)
+2018-04-10 01:21:47.508164: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-10 01:21:49.044944: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+[pid: 18996|app: 0|req: 1/1] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:21:47 2018] POST / => generated 1585 bytes in 3248 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18996|app: 0|req: 2/2] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:22:01 2018] POST / => generated 2827 bytes in 2261 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18996|app: 0|req: 3/3] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:22:11 2018] POST / => generated 2822 bytes in 2076 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18996|app: 0|req: 4/4] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:22:15 2018] POST / => generated 2844 bytes in 2053 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18996|app: 0|req: 5/5] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:22:19 2018] POST / => generated 2845 bytes in 2447 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18996|app: 0|req: 6/6] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:22:23 2018] POST / => generated 3448 bytes in 2363 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18996|app: 0|req: 7/7] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:22:27 2018] POST / => generated 2826 bytes in 2137 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18996|app: 0|req: 8/8] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:22:31 2018] POST / => generated 3443 bytes in 2125 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18996|app: 0|req: 9/9] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:22:35 2018] POST / => generated 4037 bytes in 2094 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18996|app: 0|req: 10/10] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:22:41 2018] POST / => generated 3448 bytes in 1849 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18996|app: 0|req: 11/11] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:22:44 2018] POST / => generated 2830 bytes in 2064 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18996|app: 0|req: 12/12] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:23:30 2018] POST / => generated 2857 bytes in 6606 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18996|app: 0|req: 13/13] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:23:40 2018] POST / => generated 4067 bytes in 2087 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18996|app: 0|req: 14/14] 108.16.19.158 () {38 vars in 499 bytes} [Tue Apr 10 01:26:16 2018] POST / => generated 749 bytes in 4364 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18996|app: 0|req: 15/15] 71.185.32.182 () {38 vars in 499 bytes} [Tue Apr 10 01:26:33 2018] POST / => generated 51 bytes in 2989 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+DAMN ! worker 1 (pid: 18996) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 19001)
+2018-04-10 01:27:03.277447: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-10 01:27:04.834702: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+[pid: 19001|app: 0|req: 17/16] 108.16.19.158 () {38 vars in 499 bytes} [Tue Apr 10 01:27:02 2018] POST / => generated 749 bytes in 3983 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 19001|app: 0|req: 18/17] 71.185.32.182 () {38 vars in 499 bytes} [Tue Apr 10 01:27:06 2018] POST / => generated 687 bytes in 3548 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 19001|app: 0|req: 19/18] 71.185.32.182 () {38 vars in 499 bytes} [Tue Apr 10 01:28:41 2018] POST / => generated 2093 bytes in 3678 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 19001|app: 0|req: 20/19] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:29:03 2018] POST / => generated 1589 bytes in 3166 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 19001|app: 0|req: 21/20] 71.185.32.182 () {38 vars in 499 bytes} [Tue Apr 10 01:30:00 2018] POST / => generated 656 bytes in 3440 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+DAMN ! worker 1 (pid: 19001) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 19005)
+2018-04-10 01:30:26.628013: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-10 01:30:28.227485: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+[pid: 19005|app: 0|req: 23/21] 108.16.19.158 () {38 vars in 499 bytes} [Tue Apr 10 01:30:26 2018] POST / => generated 51 bytes in 3103 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19005|app: 0|req: 24/22] 108.16.19.158 () {38 vars in 499 bytes} [Tue Apr 10 01:31:29 2018] POST / => generated 51 bytes in 3002 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19005|app: 0|req: 25/23] 71.185.32.182 () {38 vars in 499 bytes} [Tue Apr 10 01:31:32 2018] POST / => generated 51 bytes in 2750 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+DAMN ! worker 1 (pid: 19005) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 19020)
+2018-04-10 01:32:17.941055: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-10 01:32:19.513687: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+[pid: 19020|app: 0|req: 27/24] 108.16.19.158 () {38 vars in 499 bytes} [Tue Apr 10 01:32:17 2018] POST / => generated 2740 bytes in 3859 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 19020|app: 0|req: 28/25] 108.16.19.158 () {38 vars in 499 bytes} [Tue Apr 10 01:33:20 2018] POST / => generated 1977 bytes in 4180 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+DAMN ! worker 1 (pid: 19020) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 19025)
+2018-04-10 01:34:12.617487: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-10 01:34:14.185800: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+[pid: 19025|app: 0|req: 30/26] 108.16.19.158 () {38 vars in 499 bytes} [Tue Apr 10 01:34:12 2018] POST / => generated 749 bytes in 3580 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 31/27] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:40:06 2018] POST / => generated 2243 bytes in 6146 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
 /usr/local/lib/python2.7/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
 
 The code that caused this warning is on line 1997 of the file /usr/local/lib/python2.7/dist-packages/flask/app.py. To get rid of this warning, change code that looks like this:
@@ -151,134 +85,199 @@ to this:
  BeautifulSoup(YOUR_MARKUP, "lxml")
 
   markup_type=markup_type))
-[pid: 16963|app: 0|req: 95/90] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:30:24 2018] POST / => generated 78 bytes in 3048 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 96/91] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:30:34 2018] POST / => generated 51 bytes in 2230 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 97/92] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:30:45 2018] POST / => generated 51 bytes in 2163 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 98/93] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:30:54 2018] POST / => generated 2630 bytes in 2399 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 99/94] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:31:02 2018] POST / => generated 51 bytes in 1996 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 100/95] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:31:10 2018] POST / => generated 1412 bytes in 2206 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 101/96] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:31:18 2018] POST / => generated 4462 bytes in 2189 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 102/97] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:31:24 2018] POST / => generated 51 bytes in 2120 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 103/98] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:32:02 2018] POST / => generated 1437 bytes in 2323 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 104/99] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:32:10 2018] POST / => generated 656 bytes in 2100 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 105/100] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:32:19 2018] POST / => generated 2785 bytes in 2674 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 106/101] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:32:28 2018] POST / => generated 2812 bytes in 2020 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 107/102] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:32:35 2018] POST / => generated 51 bytes in 2186 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 108/103] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:32:43 2018] POST / => generated 656 bytes in 2011 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 109/104] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:32:50 2018] POST / => generated 656 bytes in 2265 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 110/105] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:32:58 2018] POST / => generated 656 bytes in 2369 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 111/106] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:34:28 2018] POST / => generated 51 bytes in 2086 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 112/107] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:34:37 2018] POST / => generated 1427 bytes in 2595 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 113/108] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:34:46 2018] POST / => generated 1400 bytes in 2094 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 114/109] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:34:54 2018] POST / => generated 1417 bytes in 2257 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 115/110] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:35:11 2018] POST / => generated 51 bytes in 1952 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 116/111] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:35:21 2018] POST / => generated 920 bytes in 3013 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 117/112] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:35:33 2018] POST / => generated 51 bytes in 2236 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 118/113] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:35:42 2018] POST / => generated 4178 bytes in 2948 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 119/114] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:35:53 2018] POST / => generated 2928 bytes in 2187 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 120/115] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:36:03 2018] POST / => generated 2315 bytes in 1998 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 121/116] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:37:27 2018] POST / => generated 713 bytes in 3205 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 122/117] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:37:40 2018] POST / => generated 4777 bytes in 2736 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 123/118] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:37:52 2018] POST / => generated 2313 bytes in 2534 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 124/119] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:38:01 2018] POST / => generated 1714 bytes in 2071 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 125/120] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:38:27 2018] POST / => generated 2945 bytes in 2259 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 126/121] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:38:46 2018] POST / => generated 51 bytes in 2104 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 127/122] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:39:04 2018] POST / => generated 992 bytes in 2715 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 128/123] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:39:40 2018] POST / => generated 713 bytes in 3539 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 129/124] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:39:51 2018] POST / => generated 713 bytes in 3334 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 130/125] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 04:40:02 2018] POST / => generated 713 bytes in 3787 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 131/126] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:03:47 2018] POST / => generated 656 bytes in 2624 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 132/127] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:03:55 2018] POST / => generated 656 bytes in 2786 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 133/128] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:04:04 2018] POST / => generated 656 bytes in 2321 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 134/129] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:07:51 2018] POST / => generated 713 bytes in 2544 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 135/130] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:08:56 2018] POST / => generated 2964 bytes in 2535 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 136/131] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:09:09 2018] POST / => generated 713 bytes in 2074 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 137/132] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:09:20 2018] POST / => generated 656 bytes in 2297 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 138/133] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:09:33 2018] POST / => generated 916 bytes in 2948 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 139/134] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:10:45 2018] POST / => generated 713 bytes in 2683 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 140/135] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:11:01 2018] POST / => generated 1735 bytes in 2970 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 141/136] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:12:05 2018] POST / => generated 1539 bytes in 2332 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 142/137] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:12:15 2018] POST / => generated 656 bytes in 2347 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 143/138] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:14:09 2018] POST / => generated 80 bytes in 4004 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 144/139] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:14:21 2018] POST / => generated 80 bytes in 4040 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 145/140] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:14:45 2018] POST / => generated 818 bytes in 3966 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 146/141] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:14:59 2018] POST / => generated 818 bytes in 3374 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 147/142] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:15:31 2018] POST / => generated 51 bytes in 2237 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 148/143] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:16:05 2018] POST / => generated 4730 bytes in 4099 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 149/144] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:16:16 2018] POST / => generated 2878 bytes in 2384 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 150/145] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:16:25 2018] POST / => generated 1654 bytes in 2146 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 151/146] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:16:39 2018] POST / => generated 51 bytes in 2603 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 152/147] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:17:07 2018] POST / => generated 1538 bytes in 2154 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 153/148] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:17:29 2018] POST / => generated 4172 bytes in 2383 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 154/149] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:17:56 2018] POST / => generated 2344 bytes in 3489 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 155/150] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:21:40 2018] POST / => generated 51 bytes in 3166 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 156/151] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:21:53 2018] POST / => generated 706 bytes in 4326 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 157/152] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:22:11 2018] POST / => generated 835 bytes in 4058 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 158/153] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:22:21 2018] POST / => generated 835 bytes in 3126 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 159/154] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:22:33 2018] POST / => generated 835 bytes in 3011 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 160/155] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:23:54 2018] POST / => generated 835 bytes in 2523 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 161/156] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:24:06 2018] POST / => generated 835 bytes in 2379 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 162/157] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:33:34 2018] POST / => generated 51 bytes in 2387 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 163/158] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:33:43 2018] POST / => generated 51 bytes in 2609 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 164/159] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:33:52 2018] POST / => generated 51 bytes in 2135 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 165/160] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:34:00 2018] POST / => generated 51 bytes in 2687 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 166/161] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:34:12 2018] POST / => generated 51 bytes in 2210 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 167/162] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:34:27 2018] POST / => generated 51 bytes in 2221 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 168/163] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:34:35 2018] POST / => generated 51 bytes in 2055 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 169/164] 71.224.176.110 () {44 vars in 717 bytes} [Mon Apr  9 05:34:43 2018] POST / => generated 798 bytes in 2910 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 16963|app: 0|req: 170/165] 71.224.176.110 () {44 vars in 717 bytes} [Mon Apr  9 05:34:48 2018] POST / => generated 798 bytes in 2943 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-DAMN ! worker 1 (pid: 16963) died, killed by signal 9 :( trying respawn ...
-Respawned uWSGI worker 1 (new pid: 17040)
-2018-04-09 05:35:03.634913: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2018-04-09 05:35:05.196722: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
-[pid: 17040|app: 0|req: 172/166] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:35:03 2018] POST / => generated 51 bytes in 2704 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 173/167] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:35:12 2018] POST / => generated 835 bytes in 2795 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 174/168] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:35:52 2018] POST / => generated 51 bytes in 1943 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 175/169] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:36:00 2018] POST / => generated 1679 bytes in 3318 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 176/170] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:36:12 2018] POST / => generated 51 bytes in 2651 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 177/171] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:36:21 2018] POST / => generated 2899 bytes in 3338 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 178/172] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:36:32 2018] POST / => generated 51 bytes in 2270 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 179/173] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:36:44 2018] POST / => generated 2118 bytes in 2855 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 180/174] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:37:10 2018] POST / => generated 51 bytes in 2129 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 181/175] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:37:19 2018] POST / => generated 2751 bytes in 2045 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 182/176] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:37:28 2018] POST / => generated 51 bytes in 2149 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 183/177] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:37:45 2018] POST / => generated 1511 bytes in 2035 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 184/178] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:37:57 2018] POST / => generated 656 bytes in 2874 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 185/179] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:38:07 2018] POST / => generated 656 bytes in 2202 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 186/180] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:38:15 2018] POST / => generated 656 bytes in 2211 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 187/181] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:40:06 2018] POST / => generated 818 bytes in 3255 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 188/182] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:40:15 2018] POST / => generated 2896 bytes in 2175 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 189/183] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:40:26 2018] POST / => generated 1560 bytes in 2277 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 190/184] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:40:38 2018] POST / => generated 713 bytes in 2690 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 191/185] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:40:53 2018] POST / => generated 656 bytes in 2349 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 192/186] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:41:32 2018] POST / => generated 656 bytes in 2120 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 193/187] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:41:45 2018] POST / => generated 713 bytes in 2038 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17040|app: 0|req: 194/188] 71.224.176.110 () {44 vars in 717 bytes} [Mon Apr  9 05:41:47 2018] POST / => generated 798 bytes in 3086 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-DAMN ! worker 1 (pid: 17040) died, killed by signal 9 :( trying respawn ...
-Respawned uWSGI worker 1 (new pid: 17057)
-2018-04-09 05:41:59.622596: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2018-04-09 05:42:01.239413: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
-[pid: 17057|app: 0|req: 196/189] 71.224.176.110 () {44 vars in 717 bytes} [Mon Apr  9 05:41:59 2018] POST / => generated 798 bytes in 3601 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17057|app: 0|req: 197/190] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:42:18 2018] POST / => generated 713 bytes in 2700 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-DAMN ! worker 1 (pid: 17057) died, killed by signal 9 :( trying respawn ...
-Respawned uWSGI worker 1 (new pid: 17060)
-2018-04-09 05:42:42.332423: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2018-04-09 05:42:43.971417: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
-[pid: 17060|app: 0|req: 199/191] 71.224.176.110 () {44 vars in 717 bytes} [Mon Apr  9 05:42:42 2018] POST / => generated 798 bytes in 3486 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 200/192] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:42:59 2018] POST / => generated 713 bytes in 2757 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 201/193] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:45:55 2018] POST / => generated 713 bytes in 2172 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 202/194] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:46:08 2018] POST / => generated 2924 bytes in 3028 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 203/195] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:46:40 2018] POST / => generated 51 bytes in 2648 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 204/196] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:46:53 2018] POST / => generated 1714 bytes in 2856 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 205/197] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:47:08 2018] POST / => generated 1726 bytes in 4151 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 206/198] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:48:31 2018] POST / => generated 656 bytes in 4435 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 207/199] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:49:06 2018] POST / => generated 656 bytes in 3777 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 208/200] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:49:58 2018] POST / => generated 713 bytes in 2239 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 209/201] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:50:06 2018] POST / => generated 656 bytes in 2418 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 210/202] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:50:14 2018] POST / => generated 2943 bytes in 2112 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 211/203] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 05:51:07 2018] POST / => generated 2340 bytes in 2728 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 212/204] 71.224.176.110 () {44 vars in 717 bytes} [Mon Apr  9 05:51:23 2018] POST / => generated 798 bytes in 2692 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 213/205] 71.224.176.110 () {42 vars in 605 bytes} [Mon Apr  9 06:08:49 2018] POST / => generated 51 bytes in 3154 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 214/206] 164.132.91.1 () {32 vars in 436 bytes} [Mon Apr  9 06:31:41 2018] GET / => generated 64 bytes in 2 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 215/207] 183.131.83.88 () {36 vars in 474 bytes} [Mon Apr  9 09:55:55 2018] GET /manager/html => generated 233 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 104 bytes (1 switches on core 0)
-[pid: 17060|app: 0|req: 216/208] 139.162.119.197 () {32 vars in 449 bytes} [Mon Apr  9 14:02:21 2018] GET / => generated 64 bytes in 0 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 32/28] 73.188.16.47 () {44 vars in 715 bytes} [Tue Apr 10 01:40:25 2018] POST / => generated 74 bytes in 3010 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 33/29] 166.137.244.17 () {44 vars in 658 bytes} [Tue Apr 10 03:08:28 2018] POST / => generated 1571 bytes in 4917 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 34/30] 46.243.189.99 () {38 vars in 507 bytes} [Tue Apr 10 05:27:37 2018] GET /w00tw00t.at.blackhats.romanian.anti-sec:) => generated 233 bytes in 8 msecs (HTTP/1.1 404) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 35/31] 46.243.189.99 () {38 vars in 481 bytes} [Tue Apr 10 05:27:38 2018] GET /phpMyAdmin/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 36/32] 46.243.189.99 () {38 vars in 481 bytes} [Tue Apr 10 05:27:38 2018] GET /phpmyadmin/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 37/33] 46.243.189.99 () {38 vars in 467 bytes} [Tue Apr 10 05:27:38 2018] GET /pma/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 38/34] 46.243.189.99 () {38 vars in 475 bytes} [Tue Apr 10 05:27:38 2018] GET /myadmin/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 39/35] 46.243.189.99 () {38 vars in 475 bytes} [Tue Apr 10 05:27:38 2018] GET /MyAdmin/scripts/setup.php => generated 233 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 40/36] 107.170.193.155 () {34 vars in 382 bytes} [Tue Apr 10 07:17:50 2018] GET / => generated 64 bytes in 1 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 41/37] 52.163.113.222 () {34 vars in 380 bytes} [Tue Apr 10 09:03:37 2018] GET / => generated 64 bytes in 0 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 42/38] 70.42.131.170 () {40 vars in 733 bytes} [Tue Apr 10 16:33:01 2018] GET / => generated 64 bytes in 1 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 43/39] 129.32.224.77 () {42 vars in 604 bytes} [Tue Apr 10 17:27:55 2018] POST / => generated 51 bytes in 3865 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 44/40] 129.32.224.77 () {42 vars in 604 bytes} [Tue Apr 10 17:28:07 2018] POST / => generated 51 bytes in 3177 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 45/41] 129.32.224.77 () {38 vars in 498 bytes} [Tue Apr 10 18:00:10 2018] POST / => generated 51 bytes in 4027 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 46/42] 166.137.240.115 () {44 vars in 659 bytes} [Tue Apr 10 18:01:25 2018] POST / => generated 51 bytes in 4139 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 47/43] 166.137.240.115 () {44 vars in 659 bytes} [Tue Apr 10 18:01:35 2018] POST / => generated 51 bytes in 4188 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 48/44] 129.32.224.77 () {42 vars in 603 bytes} [Tue Apr 10 18:46:51 2018] POST / => generated 51 bytes in 3298 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 49/45] 129.32.224.77 () {42 vars in 604 bytes} [Tue Apr 10 18:47:04 2018] POST / => generated 2888 bytes in 4023 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 50/46] 129.32.224.77 () {42 vars in 604 bytes} [Tue Apr 10 18:47:23 2018] POST / => generated 2751 bytes in 3605 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 51/47] 129.32.224.77 () {42 vars in 604 bytes} [Tue Apr 10 18:49:27 2018] POST / => generated 713 bytes in 3725 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 52/48] 129.32.224.77 () {42 vars in 604 bytes} [Tue Apr 10 18:49:43 2018] POST / => generated 656 bytes in 3866 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 53/49] 129.32.224.77 () {42 vars in 603 bytes} [Tue Apr 10 18:50:51 2018] POST / => generated 51 bytes in 2802 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 54/50] 196.52.43.102 () {30 vars in 363 bytes} [Tue Apr 10 20:14:03 2018] GET / => generated 64 bytes in 1 msecs (HTTP/1.0 405) 4 headers in 141 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 55/51] 36.233.67.229 () {34 vars in 438 bytes} [Tue Apr 10 20:22:27 2018] GET / => generated 64 bytes in 0 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 56/52] 36.233.67.229 () {34 vars in 2181 bytes} [Tue Apr 10 20:22:27 2018] GET /index.action => generated 233 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 57/53] 129.32.224.77 () {42 vars in 604 bytes} [Tue Apr 10 20:35:27 2018] POST / => generated 51 bytes in 3409 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 58/54] 129.32.224.77 () {42 vars in 604 bytes} [Tue Apr 10 20:35:36 2018] POST / => generated 51 bytes in 2805 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 59/55] 141.212.122.32 () {34 vars in 381 bytes} [Tue Apr 10 20:50:37 2018] GET / => generated 64 bytes in 0 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 60/56] 129.32.224.77 () {42 vars in 604 bytes} [Tue Apr 10 21:15:20 2018] POST / => generated 51 bytes in 4302 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 61/57] 129.32.224.77 () {38 vars in 499 bytes} [Tue Apr 10 21:45:06 2018] POST / => generated 51 bytes in 3466 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 62/58] 70.42.131.170 () {40 vars in 733 bytes} [Tue Apr 10 22:23:36 2018] GET / => generated 64 bytes in 1 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 63/59] 168.235.93.142 () {40 vars in 657 bytes} [Wed Apr 11 05:28:45 2018] GET / => generated 64 bytes in 0 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 64/60] 171.117.24.89 () {30 vars in 362 bytes} [Wed Apr 11 06:29:46 2018] GET /currentsetting.htm => generated 233 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 65/61] 172.104.108.109 () {34 vars in 378 bytes} [Wed Apr 11 07:09:44 2018] GET / => generated 64 bytes in 0 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 66/62] 209.126.136.4 () {34 vars in 474 bytes} [Wed Apr 11 10:07:20 2018] GET / => generated 64 bytes in 0 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 67/63] 35.192.109.200 () {34 vars in 381 bytes} [Wed Apr 11 11:33:13 2018] GET / => generated 64 bytes in 0 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 68/64] 168.235.93.142 () {40 vars in 657 bytes} [Wed Apr 11 11:47:41 2018] GET / => generated 64 bytes in 0 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 69/65] 129.32.224.77 () {42 vars in 604 bytes} [Wed Apr 11 15:30:28 2018] POST / => generated 51 bytes in 4502 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 19025|app: 0|req: 70/66] 192.228.100.250 () {38 vars in 482 bytes} [Wed Apr 11 15:43:04 2018] GET /user/soapCaller.bs => generated 233 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 104 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+Wed Apr 11 16:28:59 2018 - worker 1 (pid: 19025) is taking too much time to die...NO MERCY !!!
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Wed Apr 11 16:29:37 2018] ***
+compiled with version: 5.4.0 20160609 on 30 March 2018 21:01:24
+os: Linux-4.4.0-1052-aws #61-Ubuntu SMP Mon Feb 12 23:05:58 UTC 2018
+nodename: ip-172-31-44-246
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/test/PAP_backend
+writing pidfile to /home/test/PAP_backend/app.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/test/PAP_backend
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3033 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x272fef0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/test/PAP_backend/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x272fef0 pid: 22695 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22695)
+spawned uWSGI worker 1 (pid: 22700, cores: 1)
+[pid: 22700|app: 0|req: 1/1] 185.222.202.109 () {32 vars in 358 bytes} [Wed Apr 11 16:33:18 2018] PROPFIND / => generated 64 bytes in 3 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+*** Starting uWSGI 2.0.17 (64bit) on [Wed Apr 11 16:35:12 2018] ***
+compiled with version: 5.4.0 20160609 on 30 March 2018 21:01:24
+os: Linux-4.4.0-1052-aws #61-Ubuntu SMP Mon Feb 12 23:05:58 UTC 2018
+nodename: ip-172-31-44-246
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/test/PAP_backend
+writing pidfile to /home/test/PAP_backend/app.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/test/PAP_backend
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:3033).
+bind(): Address already in use [core/socket.c line 769]
+Wed Apr 11 16:35:57 2018 - worker 1 (pid: 22700) is taking too much time to die...NO MERCY !!!
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Wed Apr 11 16:36:37 2018] ***
+compiled with version: 5.4.0 20160609 on 30 March 2018 21:01:24
+os: Linux-4.4.0-1052-aws #61-Ubuntu SMP Mon Feb 12 23:05:58 UTC 2018
+nodename: ip-172-31-44-246
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/test/PAP_backend
+writing pidfile to /home/test/PAP_backend/app.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/test/PAP_backend
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3033 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0xd4aef0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/test/PAP_backend/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0xd4aef0 pid: 22803 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22803)
+spawned uWSGI worker 1 (pid: 22808, cores: 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.17 (64bit) on [Wed Apr 11 16:36:51 2018] ***
+compiled with version: 5.4.0 20160609 on 30 March 2018 21:01:24
+os: Linux-4.4.0-1052-aws #61-Ubuntu SMP Mon Feb 12 23:05:58 UTC 2018
+nodename: ip-172-31-44-246
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/test/PAP_backend
+writing pidfile to /home/test/PAP_backend/app.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/test/PAP_backend
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3033 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x94cef0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/test/PAP_backend/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x94cef0 pid: 22837 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22837)
+spawned uWSGI worker 1 (pid: 22842, cores: 1)
+2018-04-11 16:37:13.035958: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-11 16:37:14.800847: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+[pid: 22842|app: 0|req: 1/1] 129.32.224.77 () {42 vars in 604 bytes} [Wed Apr 11 16:37:12 2018] POST / => generated 3313 bytes in 3727 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 22842|app: 0|req: 2/2] 129.32.224.77 () {42 vars in 604 bytes} [Wed Apr 11 16:37:55 2018] POST / => generated 51 bytes in 2738 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 22842|app: 0|req: 3/3] 129.32.224.77 () {42 vars in 604 bytes} [Wed Apr 11 16:38:20 2018] POST / => generated 51 bytes in 2670 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 22842|app: 0|req: 4/4] 129.32.224.77 () {42 vars in 604 bytes} [Wed Apr 11 16:42:26 2018] POST / => generated 51 bytes in 2482 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 22842|app: 0|req: 5/5] 129.32.224.77 () {42 vars in 604 bytes} [Wed Apr 11 16:46:35 2018] POST / => generated 51 bytes in 2506 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)

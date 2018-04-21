@@ -33,7 +33,7 @@ class getJson(Resource):
 	    url= args['url']
 	    location = args['location']
 
-	    #query model
+	    #query model, if no result return model error
 	    result,prob=mManager().queryModel(url)
             if result  ==  'Model cannot identify the breed':
                      data['model_error'] = 'Model cannot identify the breed'
@@ -45,7 +45,7 @@ class getJson(Resource):
             else:
                breed = result.title()
             
-            # Search Wikipedia for info
+            # Search Wikipedia for info, if no result return wiki error
             try:
 	        search = wikipedia.summary(breed, sentences =5)
             except Exception:
@@ -61,21 +61,32 @@ class getJson(Resource):
                     animal="dog", location=location, output="basic",
                     breed=breed, count=4,
                 ):
-                    contact = pet['contact']
-                    for key,val in contact.items():
-                        if key == 'address1':
-                           if val != None:
-                              found = 1
-                              break
+		    if found!=1:
+	                    contact = pet['contact']
+        	            for key,val in contact.items():
+                	        if key == 'address1':
+                        	   if val != None:
+	                              found = 1
+        	                      break
                     if found == 1:
                        break
 
-                data['name'] = pet['name']
-                data['sex'] = pet['sex']
-                data['age'] = pet['age']
-                data['size'] = pet['size']
-                data['shelter_contact'] = pet['contact']
-                data['photos'] = pet['photos']
+		if not pet is None:
+	                data['name'] = pet['name']
+       		        data['sex'] = pet['sex']
+               		data['age'] = pet['age']
+	                data['size'] = pet['size']
+	                data['shelter_contact'] = pet['contact']
+			data['photos'] = pet['photos']
+
+		else:
+			data['name'] = 'none'
+                        data['sex'] = 'none'
+                        data['age'] = 'none'
+                        data['size'] = 'none'
+                        data['shelter_contact'] = 'none'
+                        data['photos'] = 'none'
+
                 data['breed'] = breed
                 data['prob'] = prob 
                 data['breed_info'] = search
@@ -84,7 +95,7 @@ class getJson(Resource):
                    data['breed'] = breed
 		   data['prob'] = prob
                    data['breed_info'] = search
-                   data['petfinder_error'] = str(e)
+                   data['petfinder_error'] = 'Breed not in PF Database'
                    return data
 
             # Package Info in dict/json object
@@ -101,7 +112,7 @@ class getJson(Resource):
             #return data
 
         except Exception as e:
-            return {'error': str(e)}
+            return {'server_error': 'if you are seeing this, save the picture'}
 
 api.add_resource(getJson, '/')
 	

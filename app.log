@@ -2420,3 +2420,804 @@ Respawned uWSGI worker 1 (new pid: 16109)
 [pid: 16109|app: 0|req: 56/53] 125.64.94.208 () {26 vars in 268 bytes} [Sat Apr 21 15:19:56 2018] GET / => generated 64 bytes in 0 msecs (HTTP/1.0 405) 4 headers in 141 bytes (1 switches on core 0)
 [pid: 16109|app: 0|req: 57/54] 172.58.201.241 () {38 vars in 501 bytes} [Sat Apr 21 15:40:11 2018] POST / => generated 726 bytes in 5534 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
 [pid: 16109|app: 0|req: 58/55] 172.58.201.241 () {38 vars in 501 bytes} [Sat Apr 21 15:44:53 2018] POST / => generated 51 bytes in 4655 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 16109|app: 0|req: 59/56] 172.58.201.241 () {38 vars in 501 bytes} [Sat Apr 21 15:47:51 2018] POST / => generated 726 bytes in 4745 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+DAMN ! worker 1 (pid: 16109) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 17412)
+2018-04-21 15:51:34.621362: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-21 15:51:36.251462: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+[pid: 17412|app: 0|req: 61/57] 172.58.201.241 () {38 vars in 501 bytes} [Sat Apr 21 15:51:33 2018] POST / => generated 830 bytes in 3785 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 62/58] 166.137.240.77 () {44 vars in 658 bytes} [Sat Apr 21 15:55:50 2018] POST / => generated 2911 bytes in 2839 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 63/59] 172.58.201.241 () {38 vars in 501 bytes} [Sat Apr 21 15:59:17 2018] POST / => generated 725 bytes in 3429 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 64/60] 71.175.68.234 () {44 vars in 740 bytes} [Sat Apr 21 16:04:15 2018] OPTIONS / => generated 0 bytes in 0 msecs (HTTP/1.1 200) 7 headers in 322 bytes (0 switches on core 0)
+[pid: 17412|app: 0|req: 65/61] 71.175.68.234 () {46 vars in 803 bytes} [Sat Apr 21 16:04:15 2018] POST / => generated 4584 bytes in 3232 msecs (HTTP/1.1 200) 4 headers in 175 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 66/62] 71.175.68.234 () {44 vars in 740 bytes} [Sat Apr 21 16:04:35 2018] OPTIONS / => generated 0 bytes in 0 msecs (HTTP/1.1 200) 7 headers in 322 bytes (0 switches on core 0)
+[pid: 17412|app: 0|req: 67/63] 71.175.68.234 () {46 vars in 803 bytes} [Sat Apr 21 16:04:35 2018] POST / => generated 3462 bytes in 3294 msecs (HTTP/1.1 200) 4 headers in 175 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 68/64] 71.175.68.234 () {44 vars in 740 bytes} [Sat Apr 21 16:04:59 2018] OPTIONS / => generated 0 bytes in 0 msecs (HTTP/1.1 200) 7 headers in 322 bytes (0 switches on core 0)
+[pid: 17412|app: 0|req: 69/65] 71.175.68.234 () {46 vars in 803 bytes} [Sat Apr 21 16:04:59 2018] POST / => generated 741 bytes in 3453 msecs (HTTP/1.1 200) 4 headers in 174 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 70/66] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 16:19:31 2018] POST / => generated 726 bytes in 4165 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 71/67] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 16:19:35 2018] POST / => generated 726 bytes in 3517 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 72/68] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 16:21:51 2018] POST / => generated 84 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 73/69] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 16:21:59 2018] POST / => generated 84 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 74/70] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 16:22:58 2018] POST / => generated 84 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 75/71] 100.11.112.210 () {44 vars in 717 bytes} [Sat Apr 21 16:23:48 2018] POST / => generated 4584 bytes in 3047 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 76/72] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 16:24:36 2018] POST / => generated 84 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 77/73] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 16:26:54 2018] POST / => generated 84 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 78/74] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 16:27:46 2018] POST / => generated 4584 bytes in 1974 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 79/75] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 16:32:19 2018] POST / => generated 752 bytes in 3238 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17412|app: 0|req: 80/76] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 16:36:41 2018] POST / => generated 726 bytes in 4419 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Apr 21 16:45:07 2018] ***
+compiled with version: 5.4.0 20160609 on 30 March 2018 21:01:24
+os: Linux-4.4.0-1052-aws #61-Ubuntu SMP Mon Feb 12 23:05:58 UTC 2018
+nodename: ip-172-31-44-246
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/test/PAP_backend
+writing pidfile to /home/test/PAP_backend/app.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/test/PAP_backend
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3033 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0xfe9ef0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/test/PAP_backend/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0xfe9ef0 pid: 17542 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17542)
+spawned uWSGI worker 1 (pid: 17549, cores: 1)
+2018-04-21 16:45:28.061628: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-21 16:45:29.665107: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+[pid: 17549|app: 0|req: 1/1] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 16:45:27 2018] POST / => generated 752 bytes in 3131 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17549|app: 0|req: 2/2] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 16:45:34 2018] POST / => generated 752 bytes in 2028 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Apr 21 16:48:41 2018] ***
+compiled with version: 5.4.0 20160609 on 30 March 2018 21:01:24
+os: Linux-4.4.0-1052-aws #61-Ubuntu SMP Mon Feb 12 23:05:58 UTC 2018
+nodename: ip-172-31-44-246
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/test/PAP_backend
+writing pidfile to /home/test/PAP_backend/app.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/test/PAP_backend
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3033 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x107fef0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/test/PAP_backend/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x107fef0 pid: 17591 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17591)
+spawned uWSGI worker 1 (pid: 17596, cores: 1)
+2018-04-21 16:48:55.705835: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-21 16:48:56.809594: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+[pid: 17596|app: 0|req: 1/1] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 16:48:55 2018] POST / => generated 752 bytes in 2770 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17596|app: 0|req: 2/2] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 16:49:52 2018] POST / => generated 696 bytes in 53955 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Apr 21 16:51:49 2018] ***
+compiled with version: 5.4.0 20160609 on 30 March 2018 21:01:24
+os: Linux-4.4.0-1052-aws #61-Ubuntu SMP Mon Feb 12 23:05:58 UTC 2018
+nodename: ip-172-31-44-246
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/test/PAP_backend
+writing pidfile to /home/test/PAP_backend/app.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/test/PAP_backend
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3033 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x1f5def0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/test/PAP_backend/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x1f5def0 pid: 17632 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17632)
+spawned uWSGI worker 1 (pid: 17637, cores: 1)
+2018-04-21 16:52:01.621715: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-21 16:52:02.976767: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+[pid: 17637|app: 0|req: 1/1] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 16:52:01 2018] POST / => generated 4584 bytes in 2831 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 17637|app: 0|req: 2/2] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 16:52:27 2018] POST / => generated 4584 bytes in 2107 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 17637|app: 0|req: 3/3] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 16:52:39 2018] POST / => generated 752 bytes in 2652 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17637|app: 0|req: 4/4] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 16:57:16 2018] POST / => generated 726 bytes in 2980 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17637|app: 0|req: 5/5] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 16:58:24 2018] POST / => generated 787 bytes in 3164 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17637|app: 0|req: 6/6] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:01:29 2018] POST / => generated 726 bytes in 2487 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17637|app: 0|req: 7/7] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:04:17 2018] POST / => generated 787 bytes in 2962 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Apr 21 17:04:48 2018] ***
+compiled with version: 5.4.0 20160609 on 30 March 2018 21:01:24
+os: Linux-4.4.0-1052-aws #61-Ubuntu SMP Mon Feb 12 23:05:58 UTC 2018
+nodename: ip-172-31-44-246
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/test/PAP_backend
+writing pidfile to /home/test/PAP_backend/app.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/test/PAP_backend
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3033 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x2732ef0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/test/PAP_backend/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x2732ef0 pid: 17954 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17954)
+spawned uWSGI worker 1 (pid: 17960, cores: 1)
+2018-04-21 17:04:56.210725: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-21 17:04:57.513628: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+/usr/local/lib/python2.7/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 1997 of the file /usr/local/lib/python2.7/dist-packages/flask/app.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+
+  markup_type=markup_type))
+[pid: 17960|app: 0|req: 1/1] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:04:55 2018] POST / => generated 108 bytes in 4824 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17960|app: 0|req: 2/2] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 17:05:00 2018] POST / => generated 727 bytes in 5612 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17960|app: 0|req: 3/3] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:07:35 2018] POST / => generated 51 bytes in 2444 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 17960|app: 0|req: 4/4] 99.203.16.98 () {38 vars in 498 bytes} [Sat Apr 21 17:08:28 2018] POST / => generated 108 bytes in 2694 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17960|app: 0|req: 5/5] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:10:28 2018] POST / => generated 108 bytes in 3119 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 17960|app: 0|req: 6/6] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:12:19 2018] POST / => generated 108 bytes in 3879 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+*** Starting uWSGI 2.0.17 (64bit) on [Sat Apr 21 17:15:13 2018] ***
+compiled with version: 5.4.0 20160609 on 30 March 2018 21:01:24
+os: Linux-4.4.0-1052-aws #61-Ubuntu SMP Mon Feb 12 23:05:58 UTC 2018
+nodename: ip-172-31-44-246
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/test/PAP_backend
+writing pidfile to /home/test/PAP_backend/app.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/test/PAP_backend
+your processes number limit is 3900
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:3033 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.12 (default, Dec  4 2017, 14:50:18)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x21bfef0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145808 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+added /home/test/PAP_backend/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x21bfef0 pid: 18002 (default app)
+mountpoint  already configured. skip.
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 18002)
+spawned uWSGI worker 1 (pid: 18007, cores: 1)
+2018-04-21 17:15:25.410804: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-21 17:15:27.030251: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+[pid: 18007|app: 0|req: 1/1] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 17:15:25 2018] POST / => generated 727 bytes in 3184 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18007|app: 0|req: 2/2] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 17:15:51 2018] POST / => generated 4584 bytes in 2464 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 1997 of the file /usr/local/lib/python2.7/dist-packages/flask/app.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+
+  markup_type=markup_type))
+[pid: 18007|app: 0|req: 3/3] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:24:08 2018] POST / => generated 108 bytes in 2648 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18007|app: 0|req: 4/4] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:25:07 2018] POST / => generated 2591 bytes in 3048 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18007|app: 0|req: 5/5] 166.216.165.63 () {44 vars in 658 bytes} [Sat Apr 21 17:35:10 2018] POST / => generated 2752 bytes in 3542 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18007|app: 0|req: 6/6] 166.216.165.63 () {44 vars in 658 bytes} [Sat Apr 21 17:37:25 2018] POST / => generated 2752 bytes in 2277 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18007|app: 0|req: 7/7] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:38:32 2018] POST / => generated 108 bytes in 3042 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18007|app: 0|req: 8/8] 70.42.131.170 () {40 vars in 733 bytes} [Sat Apr 21 17:41:00 2018] GET / => generated 64 bytes in 1 msecs (HTTP/1.1 405) 4 headers in 141 bytes (1 switches on core 0)
+DAMN ! worker 1 (pid: 18007) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 18044)
+2018-04-21 17:42:18.269200: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-21 17:42:19.891991: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+[pid: 18044|app: 0|req: 10/9] 99.203.16.98 () {38 vars in 498 bytes} [Sat Apr 21 17:42:17 2018] POST / => generated 2700 bytes in 4321 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+/usr/local/lib/python2.7/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 1997 of the file /usr/local/lib/python2.7/dist-packages/flask/app.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+
+  markup_type=markup_type))
+[pid: 18044|app: 0|req: 11/10] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:44:46 2018] POST / => generated 108 bytes in 3458 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 12/11] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 17:44:50 2018] POST / => generated 4584 bytes in 2626 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 13/12] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:46:01 2018] POST / => generated 108 bytes in 2619 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 14/13] 70.42.131.170 () {40 vars in 1109 bytes} [Sat Apr 21 17:47:57 2018] GET /%3fbreed=beagle%26location=18914%26url=https://firebasestorage.googleapis.com/v0/b/pic-a-pup.appspot.com/o/pupimages/1521417989.67944.jpg%3falt=media%26token=9e427ac8-178b-4606-bbfb-2b14fcf26c55 => generated 233 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 15/14] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:48:47 2018] POST / => generated 108 bytes in 3227 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 16/15] 172.58.201.241 () {38 vars in 501 bytes} [Sat Apr 21 17:49:58 2018] POST / => generated 701 bytes in 3996 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 17/16] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:50:12 2018] POST / => generated 701 bytes in 3282 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 18/17] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:52:08 2018] POST / => generated 762 bytes in 3646 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 19/18] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:54:23 2018] POST / => generated 701 bytes in 3287 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 20/19] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 17:56:14 2018] POST / => generated 762 bytes in 3302 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 21/20] 99.203.16.98 () {38 vars in 498 bytes} [Sat Apr 21 17:58:34 2018] POST / => generated 108 bytes in 3522 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 22/21] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 18:01:55 2018] POST / => generated 108 bytes in 5253 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 23/22] 99.203.16.98 () {38 vars in 498 bytes} [Sat Apr 21 18:03:01 2018] POST / => generated 108 bytes in 3221 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 24/23] 70.42.131.170 () {40 vars in 1135 bytes} [Sat Apr 21 18:03:12 2018] GET /%3fbreed=german%20shepard%26location=18914%26url=firebasestorage.googleapis.com/v0/b/pic-a-pup.appspot.com/o/pupimages/android.graphics.bitmap@1ff8409%3falt=media%26token=979c36f8-23e0-4870-bea3-3a2f3c3690ed => generated 233 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 25/24] 99.203.16.98 () {38 vars in 498 bytes} [Sat Apr 21 18:05:05 2018] POST / => generated 108 bytes in 3867 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 26/25] 71.175.68.234 () {34 vars in 445 bytes} [Sat Apr 21 18:05:18 2018] POST / => generated 673 bytes in 2655 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 27/26] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:05:21 2018] POST / => generated 673 bytes in 2601 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 28/27] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:05:24 2018] POST / => generated 673 bytes in 2543 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 29/28] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:05:27 2018] POST / => generated 673 bytes in 2465 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 30/29] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:05:30 2018] POST / => generated 673 bytes in 2588 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 31/30] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:05:33 2018] POST / => generated 673 bytes in 2507 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 32/31] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:05:35 2018] POST / => generated 673 bytes in 2532 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 33/32] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:05:38 2018] POST / => generated 673 bytes in 2424 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 34/33] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:05:41 2018] POST / => generated 673 bytes in 2818 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 35/34] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:05:44 2018] POST / => generated 673 bytes in 2602 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18044|app: 0|req: 36/35] 70.42.131.170 () {40 vars in 1110 bytes} [Sat Apr 21 18:06:18 2018] GET /%3fbreed=beagle%26location=18914%26url=https://firebasestorage.googleapis.com/v0/b/pic-a-pup.appspot.com/o/pupimages/1521417989.67944.jpg%3falt=media%26token=9e427ac8-178b-4606-bbfb-2b14fcf26c55 => generated 233 bytes in 0 msecs (HTTP/1.1 404) 3 headers in 104 bytes (1 switches on core 0)
+DAMN ! worker 1 (pid: 18044) died, killed by signal 9 :( trying respawn ...
+Respawned uWSGI worker 1 (new pid: 18062)
+2018-04-21 18:06:40.034068: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-21 18:06:41.601551: W tensorflow/core/framework/op_def_util.cc:343] Op BatchNormWithGlobalNormalization is deprecated. It will cease to work in GraphDef version 9. Use tf.nn.batch_normalization().
+/usr/local/lib/python2.7/dist-packages/bs4/__init__.py:181: UserWarning: No parser was explicitly specified, so I'm using the best available HTML parser for this system ("lxml"). This usually isn't a problem, but if you run this code on another system, or in a different virtual environment, it may use a different parser and behave differently.
+
+The code that caused this warning is on line 1997 of the file /usr/local/lib/python2.7/dist-packages/flask/app.py. To get rid of this warning, change code that looks like this:
+
+ BeautifulSoup(YOUR_MARKUP})
+
+to this:
+
+ BeautifulSoup(YOUR_MARKUP, "lxml")
+
+  markup_type=markup_type))
+[pid: 18062|app: 0|req: 38/36] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 18:06:39 2018] POST / => generated 108 bytes in 3672 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 39/37] 71.175.68.234 () {34 vars in 445 bytes} [Sat Apr 21 18:07:05 2018] POST / => generated 673 bytes in 2313 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 40/38] 71.175.68.234 () {34 vars in 445 bytes} [Sat Apr 21 18:07:07 2018] POST / => generated 673 bytes in 1764 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 41/39] 71.175.68.234 () {34 vars in 445 bytes} [Sat Apr 21 18:07:09 2018] POST / => generated 673 bytes in 1712 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 42/40] 71.175.68.234 () {34 vars in 445 bytes} [Sat Apr 21 18:07:11 2018] POST / => generated 673 bytes in 2077 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 43/41] 71.175.68.234 () {34 vars in 445 bytes} [Sat Apr 21 18:07:13 2018] POST / => generated 673 bytes in 2385 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 44/42] 71.175.68.234 () {34 vars in 445 bytes} [Sat Apr 21 18:07:15 2018] POST / => generated 673 bytes in 2466 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 45/43] 71.175.68.234 () {34 vars in 445 bytes} [Sat Apr 21 18:07:18 2018] POST / => generated 673 bytes in 2301 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 46/44] 71.175.68.234 () {34 vars in 445 bytes} [Sat Apr 21 18:07:20 2018] POST / => generated 673 bytes in 2495 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 47/45] 71.175.68.234 () {34 vars in 445 bytes} [Sat Apr 21 18:07:23 2018] POST / => generated 673 bytes in 2234 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 48/46] 71.175.68.234 () {34 vars in 445 bytes} [Sat Apr 21 18:07:25 2018] POST / => generated 673 bytes in 1848 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 49/47] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:27 2018] POST / => generated 673 bytes in 2286 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 50/48] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:29 2018] POST / => generated 673 bytes in 1838 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 51/49] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:31 2018] POST / => generated 673 bytes in 2310 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 52/50] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:33 2018] POST / => generated 673 bytes in 1887 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 53/51] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:35 2018] POST / => generated 673 bytes in 2354 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 54/52] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:37 2018] POST / => generated 673 bytes in 1911 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 55/53] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:39 2018] POST / => generated 673 bytes in 2171 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 56/54] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:41 2018] POST / => generated 673 bytes in 1957 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 57/55] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:43 2018] POST / => generated 673 bytes in 1829 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 58/56] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:45 2018] POST / => generated 673 bytes in 1975 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 59/57] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:47 2018] POST / => generated 673 bytes in 1781 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 60/58] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:49 2018] POST / => generated 673 bytes in 2185 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 61/59] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:51 2018] POST / => generated 673 bytes in 1847 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 62/60] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:53 2018] POST / => generated 673 bytes in 2271 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 63/61] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:07:55 2018] POST / => generated 673 bytes in 1971 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 64/62] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 18:07:57 2018] POST / => generated 108 bytes in 2867 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 65/63] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:00 2018] POST / => generated 673 bytes in 1978 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 66/64] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:02 2018] POST / => generated 673 bytes in 1796 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 67/65] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:04 2018] POST / => generated 673 bytes in 2030 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 68/66] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:06 2018] POST / => generated 673 bytes in 1907 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 69/67] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:08 2018] POST / => generated 673 bytes in 2030 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 70/68] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:10 2018] POST / => generated 673 bytes in 1906 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 71/69] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:12 2018] POST / => generated 673 bytes in 1785 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 72/70] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:14 2018] POST / => generated 673 bytes in 1973 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 73/71] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 18:08:16 2018] POST / => generated 108 bytes in 2541 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 74/72] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:18 2018] POST / => generated 673 bytes in 2096 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 75/73] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:20 2018] POST / => generated 673 bytes in 1891 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 76/74] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:22 2018] POST / => generated 673 bytes in 2065 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 77/75] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:24 2018] POST / => generated 673 bytes in 1934 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 78/76] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:26 2018] POST / => generated 673 bytes in 1821 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 79/77] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:28 2018] POST / => generated 673 bytes in 2269 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 80/78] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:30 2018] POST / => generated 673 bytes in 1865 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 81/79] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:32 2018] POST / => generated 673 bytes in 2282 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 82/80] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:34 2018] POST / => generated 673 bytes in 1877 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 83/81] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:36 2018] POST / => generated 673 bytes in 2179 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 84/82] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:38 2018] POST / => generated 673 bytes in 1993 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 85/83] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:40 2018] POST / => generated 673 bytes in 1822 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 86/84] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:42 2018] POST / => generated 673 bytes in 2105 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 87/85] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:44 2018] POST / => generated 673 bytes in 1773 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 88/86] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:46 2018] POST / => generated 673 bytes in 2283 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 89/87] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:48 2018] POST / => generated 673 bytes in 1867 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 90/88] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:50 2018] POST / => generated 673 bytes in 2319 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 91/89] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 18:08:53 2018] POST / => generated 878 bytes in 2854 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 92/90] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:55 2018] POST / => generated 673 bytes in 1997 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 93/91] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:57 2018] POST / => generated 673 bytes in 2022 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 94/92] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:08:59 2018] POST / => generated 673 bytes in 1849 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 95/93] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:09:01 2018] POST / => generated 673 bytes in 2199 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 96/94] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:09:03 2018] POST / => generated 673 bytes in 1882 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 97/95] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 18:09:05 2018] POST / => generated 878 bytes in 2697 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 98/96] 71.175.68.234 () {34 vars in 445 bytes} [Sat Apr 21 18:11:55 2018] POST / => generated 673 bytes in 2472 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 99/97] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:11:58 2018] POST / => generated 673 bytes in 2402 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 100/98] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:12:01 2018] POST / => generated 673 bytes in 2015 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 101/99] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:12:03 2018] POST / => generated 673 bytes in 1824 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 102/100] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:12:06 2018] POST / => generated 673 bytes in 2100 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 103/101] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:12:08 2018] POST / => generated 673 bytes in 1804 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 104/102] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:12:10 2018] POST / => generated 673 bytes in 2106 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 105/103] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:12:13 2018] POST / => generated 673 bytes in 1861 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 106/104] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:12:15 2018] POST / => generated 673 bytes in 2089 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 107/105] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:12:17 2018] POST / => generated 673 bytes in 1977 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 108/106] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 18:12:41 2018] POST / => generated 51 bytes in 2229 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 109/107] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 18:13:13 2018] POST / => generated 763 bytes in 3278 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 110/108] 99.203.16.98 () {38 vars in 499 bytes} [Sat Apr 21 18:15:05 2018] POST / => generated 763 bytes in 2357 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 111/109] 71.175.68.234 () {34 vars in 445 bytes} [Sat Apr 21 18:23:20 2018] POST / => generated 673 bytes in 2447 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 112/110] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:23:23 2018] POST / => generated 673 bytes in 1928 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 113/111] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:23:25 2018] POST / => generated 673 bytes in 2168 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 114/112] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:23:28 2018] POST / => generated 673 bytes in 1954 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 115/113] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:23:30 2018] POST / => generated 673 bytes in 1900 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 116/114] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:23:33 2018] POST / => generated 673 bytes in 2292 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 117/115] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:23:35 2018] POST / => generated 673 bytes in 1834 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 118/116] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:23:37 2018] POST / => generated 673 bytes in 2259 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 119/117] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:23:40 2018] POST / => generated 673 bytes in 1848 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 120/118] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:23:42 2018] POST / => generated 673 bytes in 2016 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 121/119] 71.175.68.234 () {34 vars in 445 bytes} [Sat Apr 21 18:24:48 2018] POST / => generated 673 bytes in 1985 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 122/120] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:24:50 2018] POST / => generated 673 bytes in 1830 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 123/121] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:24:52 2018] POST / => generated 673 bytes in 2226 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 124/122] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:24:55 2018] POST / => generated 673 bytes in 1744 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 125/123] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:24:57 2018] POST / => generated 673 bytes in 3223 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 126/124] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:25:00 2018] POST / => generated 673 bytes in 1852 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 127/125] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:25:02 2018] POST / => generated 673 bytes in 2274 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 128/126] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:25:05 2018] POST / => generated 673 bytes in 1963 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 129/127] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:25:07 2018] POST / => generated 673 bytes in 1846 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 130/128] 71.175.68.234 () {36 vars in 481 bytes} [Sat Apr 21 18:25:10 2018] POST / => generated 673 bytes in 2291 msecs (HTTP/1.0 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 131/129] 71.175.68.234 () {38 vars in 447 bytes} [Sat Apr 21 18:42:03 2018] POST / => generated 61 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 132/130] 71.175.68.234 () {38 vars in 447 bytes} [Sat Apr 21 18:42:25 2018] POST / => generated 61 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 133/131] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:42:58 2018] POST / => generated 673 bytes in 1929 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 134/132] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:08 2018] POST / => generated 673 bytes in 2270 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 135/133] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:10 2018] POST / => generated 673 bytes in 1825 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 136/134] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:12 2018] POST / => generated 673 bytes in 2263 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 137/135] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:14 2018] POST / => generated 673 bytes in 1854 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 138/136] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:16 2018] POST / => generated 673 bytes in 2314 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 139/137] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:19 2018] POST / => generated 673 bytes in 1988 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 140/138] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:21 2018] POST / => generated 673 bytes in 1823 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 141/139] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:22 2018] POST / => generated 673 bytes in 2250 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 142/140] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:25 2018] POST / => generated 673 bytes in 1771 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 143/141] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:26 2018] POST / => generated 673 bytes in 2269 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 144/142] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:29 2018] POST / => generated 673 bytes in 1832 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 145/143] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:31 2018] POST / => generated 673 bytes in 2273 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 146/144] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:33 2018] POST / => generated 673 bytes in 1952 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 147/145] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:35 2018] POST / => generated 673 bytes in 1800 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 148/146] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:37 2018] POST / => generated 673 bytes in 2303 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 149/147] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:39 2018] POST / => generated 673 bytes in 1858 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 150/148] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:41 2018] POST / => generated 673 bytes in 2156 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 151/149] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:43 2018] POST / => generated 673 bytes in 1866 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 152/150] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:45 2018] POST / => generated 673 bytes in 2045 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 153/151] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:47 2018] POST / => generated 673 bytes in 1964 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 154/152] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:49 2018] POST / => generated 673 bytes in 1805 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 155/153] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:51 2018] POST / => generated 673 bytes in 2230 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 156/154] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:53 2018] POST / => generated 673 bytes in 1811 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 157/155] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:55 2018] POST / => generated 673 bytes in 2256 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 158/156] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:57 2018] POST / => generated 673 bytes in 1844 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 159/157] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:43:59 2018] POST / => generated 673 bytes in 2344 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 160/158] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:01 2018] POST / => generated 673 bytes in 2082 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 161/159] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:03 2018] POST / => generated 673 bytes in 1818 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 162/160] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:05 2018] POST / => generated 673 bytes in 2267 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 163/161] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:07 2018] POST / => generated 673 bytes in 1825 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 164/162] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:09 2018] POST / => generated 673 bytes in 2275 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 165/163] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:11 2018] POST / => generated 673 bytes in 2044 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 166/164] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:13 2018] POST / => generated 673 bytes in 4259 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 167/165] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:18 2018] POST / => generated 673 bytes in 2058 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 168/166] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:20 2018] POST / => generated 673 bytes in 2332 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 169/167] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:22 2018] POST / => generated 673 bytes in 1967 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 170/168] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:24 2018] POST / => generated 673 bytes in 1869 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 171/169] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:26 2018] POST / => generated 673 bytes in 2438 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 172/170] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:28 2018] POST / => generated 673 bytes in 1943 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 173/171] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:30 2018] POST / => generated 673 bytes in 2308 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 174/172] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:33 2018] POST / => generated 673 bytes in 1846 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 175/173] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:34 2018] POST / => generated 673 bytes in 2091 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 176/174] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:37 2018] POST / => generated 673 bytes in 1986 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 177/175] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:39 2018] POST / => generated 673 bytes in 1839 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 178/176] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:40 2018] POST / => generated 673 bytes in 2247 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 179/177] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:43 2018] POST / => generated 673 bytes in 1824 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 180/178] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:44 2018] POST / => generated 673 bytes in 2265 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 181/179] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:47 2018] POST / => generated 673 bytes in 1950 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 182/180] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:49 2018] POST / => generated 673 bytes in 2340 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 183/181] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:51 2018] POST / => generated 673 bytes in 1917 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 184/182] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:53 2018] POST / => generated 673 bytes in 1756 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 185/183] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:55 2018] POST / => generated 61 bytes in 2326 msecs (HTTP/1.1 200) 3 headers in 103 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 186/184] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:57 2018] POST / => generated 673 bytes in 1909 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 187/185] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:44:59 2018] POST / => generated 673 bytes in 2291 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 188/186] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:01 2018] POST / => generated 673 bytes in 1958 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 189/187] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:03 2018] POST / => generated 673 bytes in 2314 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 190/188] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:05 2018] POST / => generated 673 bytes in 1941 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 191/189] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:07 2018] POST / => generated 673 bytes in 1901 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 192/190] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:09 2018] POST / => generated 673 bytes in 2221 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 193/191] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:12 2018] POST / => generated 673 bytes in 1857 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 194/192] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:13 2018] POST / => generated 673 bytes in 2285 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 195/193] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:16 2018] POST / => generated 673 bytes in 2043 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 196/194] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:18 2018] POST / => generated 673 bytes in 2381 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 197/195] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:20 2018] POST / => generated 673 bytes in 2025 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 198/196] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:22 2018] POST / => generated 673 bytes in 1998 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 199/197] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:24 2018] POST / => generated 673 bytes in 2326 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 200/198] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:26 2018] POST / => generated 673 bytes in 1929 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 201/199] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:28 2018] POST / => generated 673 bytes in 2277 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 202/200] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:31 2018] POST / => generated 673 bytes in 2790 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 203/201] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:33 2018] POST / => generated 673 bytes in 2524 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 204/202] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:36 2018] POST / => generated 673 bytes in 2147 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 205/203] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:38 2018] POST / => generated 673 bytes in 2334 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 206/204] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:40 2018] POST / => generated 673 bytes in 2468 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 207/205] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:43 2018] POST / => generated 673 bytes in 1959 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 208/206] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:45 2018] POST / => generated 673 bytes in 2294 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 209/207] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:47 2018] POST / => generated 673 bytes in 1998 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 210/208] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:49 2018] POST / => generated 673 bytes in 2330 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 211/209] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:51 2018] POST / => generated 673 bytes in 2054 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 212/210] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:54 2018] POST / => generated 673 bytes in 2327 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 213/211] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:56 2018] POST / => generated 673 bytes in 2010 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 214/212] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:45:58 2018] POST / => generated 673 bytes in 1876 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 215/213] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:00 2018] POST / => generated 673 bytes in 2281 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 216/214] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:02 2018] POST / => generated 673 bytes in 1849 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 217/215] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:04 2018] POST / => generated 673 bytes in 2302 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 218/216] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:06 2018] POST / => generated 673 bytes in 1876 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 219/217] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:08 2018] POST / => generated 673 bytes in 2149 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 220/218] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:10 2018] POST / => generated 673 bytes in 1983 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 221/219] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:12 2018] POST / => generated 673 bytes in 1978 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 222/220] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:14 2018] POST / => generated 673 bytes in 2241 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 223/221] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:16 2018] POST / => generated 673 bytes in 1814 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 224/222] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:18 2018] POST / => generated 673 bytes in 2282 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 225/223] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:21 2018] POST / => generated 673 bytes in 1909 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 226/224] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:22 2018] POST / => generated 673 bytes in 2161 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 227/225] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:25 2018] POST / => generated 673 bytes in 1973 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 228/226] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:27 2018] POST / => generated 673 bytes in 1814 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 229/227] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:28 2018] POST / => generated 673 bytes in 2225 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 230/228] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:31 2018] POST / => generated 673 bytes in 1821 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 231/229] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:32 2018] POST / => generated 673 bytes in 2326 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 232/230] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:35 2018] POST / => generated 673 bytes in 2052 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 233/231] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:37 2018] POST / => generated 673 bytes in 2385 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 234/232] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:46:39 2018] POST / => generated 673 bytes in 2108 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 235/233] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 18:46:41 2018] POST / => generated 4584 bytes in 2448 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 236/234] 71.175.68.234 () {44 vars in 716 bytes} [Sat Apr 21 18:46:44 2018] POST / => generated 4584 bytes in 2137 msecs (HTTP/1.1 200) 3 headers in 105 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 237/235] 71.175.68.234 () {44 vars in 740 bytes} [Sat Apr 21 18:46:46 2018] OPTIONS / => generated 0 bytes in 0 msecs (HTTP/1.1 200) 7 headers in 322 bytes (0 switches on core 0)
+[pid: 18062|app: 0|req: 238/236] 71.175.68.234 () {44 vars in 740 bytes} [Sat Apr 21 18:46:46 2018] OPTIONS / => generated 0 bytes in 0 msecs (HTTP/1.1 200) 7 headers in 322 bytes (0 switches on core 0)
+[pid: 18062|app: 0|req: 239/237] 71.175.68.234 () {46 vars in 803 bytes} [Sat Apr 21 18:46:46 2018] POST / => generated 4584 bytes in 2254 msecs (HTTP/1.1 200) 4 headers in 175 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 240/238] 71.175.68.234 () {46 vars in 803 bytes} [Sat Apr 21 18:46:48 2018] POST / => generated 4584 bytes in 2621 msecs (HTTP/1.1 200) 4 headers in 175 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 241/239] 71.175.68.234 () {44 vars in 740 bytes} [Sat Apr 21 18:46:59 2018] OPTIONS / => generated 0 bytes in 0 msecs (HTTP/1.1 200) 7 headers in 322 bytes (0 switches on core 0)
+[pid: 18062|app: 0|req: 242/240] 71.175.68.234 () {46 vars in 803 bytes} [Sat Apr 21 18:46:59 2018] POST / => generated 4584 bytes in 2184 msecs (HTTP/1.1 200) 4 headers in 175 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 243/241] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:47:14 2018] POST / => generated 673 bytes in 2299 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 244/242] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:47:40 2018] POST / => generated 673 bytes in 1953 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 245/243] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:48:01 2018] POST / => generated 673 bytes in 2236 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 246/244] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:48:47 2018] POST / => generated 673 bytes in 2035 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 247/245] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:49:08 2018] POST / => generated 673 bytes in 1836 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 248/246] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:49:18 2018] POST / => generated 673 bytes in 2193 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 249/247] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:50:19 2018] POST / => generated 673 bytes in 1958 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 250/248] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:50:31 2018] POST / => generated 673 bytes in 2295 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 251/249] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:50:55 2018] POST / => generated 673 bytes in 1901 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 252/250] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:51:51 2018] POST / => generated 673 bytes in 2187 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 253/251] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:52:04 2018] POST / => generated 673 bytes in 2072 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 254/252] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:52:53 2018] POST / => generated 673 bytes in 2152 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 255/253] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:53:18 2018] POST / => generated 673 bytes in 2294 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 256/254] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:53:28 2018] POST / => generated 673 bytes in 1887 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 257/255] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:53:38 2018] POST / => generated 673 bytes in 2220 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 258/256] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:53:40 2018] POST / => generated 673 bytes in 1919 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 259/257] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:53:42 2018] POST / => generated 673 bytes in 2067 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 260/258] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:53:44 2018] POST / => generated 673 bytes in 1984 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 261/259] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:53:46 2018] POST / => generated 673 bytes in 1844 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 262/260] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:54:27 2018] POST / => generated 673 bytes in 2372 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 263/261] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:54:29 2018] POST / => generated 673 bytes in 1824 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 264/262] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:54:31 2018] POST / => generated 673 bytes in 2336 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 265/263] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:54:33 2018] POST / => generated 673 bytes in 1932 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 266/264] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:54:35 2018] POST / => generated 673 bytes in 2212 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 267/265] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:56:31 2018] POST / => generated 673 bytes in 2079 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 268/266] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:56:33 2018] POST / => generated 673 bytes in 1870 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 269/267] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:56:35 2018] POST / => generated 673 bytes in 2224 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 270/268] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:56:37 2018] POST / => generated 673 bytes in 1889 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 271/269] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:56:39 2018] POST / => generated 673 bytes in 2275 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 272/270] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:13 2018] POST / => generated 673 bytes in 2226 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 273/271] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:15 2018] POST / => generated 673 bytes in 2391 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 274/272] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:17 2018] POST / => generated 673 bytes in 2120 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 275/273] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:20 2018] POST / => generated 673 bytes in 2341 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 276/274] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:22 2018] POST / => generated 673 bytes in 2099 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 277/275] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:26 2018] POST / => generated 673 bytes in 1889 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 278/276] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:28 2018] POST / => generated 673 bytes in 2233 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 279/277] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:30 2018] POST / => generated 673 bytes in 2726 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 280/278] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:33 2018] POST / => generated 673 bytes in 2275 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 281/279] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:35 2018] POST / => generated 673 bytes in 1923 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 282/280] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:39 2018] POST / => generated 673 bytes in 2218 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 283/281] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:41 2018] POST / => generated 673 bytes in 1954 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 284/282] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:43 2018] POST / => generated 673 bytes in 1821 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 285/283] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:45 2018] POST / => generated 673 bytes in 2407 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 286/284] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:47 2018] POST / => generated 673 bytes in 1860 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 287/285] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:57 2018] POST / => generated 673 bytes in 2130 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 288/286] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:58:59 2018] POST / => generated 673 bytes in 1836 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 289/287] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:01 2018] POST / => generated 673 bytes in 2262 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 290/288] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:03 2018] POST / => generated 673 bytes in 1947 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 291/289] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:05 2018] POST / => generated 673 bytes in 1908 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 292/290] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:11 2018] POST / => generated 673 bytes in 2299 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 293/291] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:14 2018] POST / => generated 673 bytes in 1906 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 294/292] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:16 2018] POST / => generated 673 bytes in 2240 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 295/293] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:18 2018] POST / => generated 673 bytes in 1919 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 296/294] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:20 2018] POST / => generated 673 bytes in 2281 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 297/295] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:27 2018] POST / => generated 673 bytes in 2009 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 298/296] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:29 2018] POST / => generated 673 bytes in 1947 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 299/297] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:31 2018] POST / => generated 673 bytes in 2283 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 300/298] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:33 2018] POST / => generated 673 bytes in 2018 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 301/299] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:35 2018] POST / => generated 673 bytes in 2327 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 302/300] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:37 2018] POST / => generated 673 bytes in 1978 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 303/301] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:39 2018] POST / => generated 673 bytes in 2318 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 304/302] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:42 2018] POST / => generated 673 bytes in 1972 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 305/303] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:44 2018] POST / => generated 673 bytes in 1832 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 306/304] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:45 2018] POST / => generated 673 bytes in 2240 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 307/305] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:48 2018] POST / => generated 673 bytes in 1828 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 308/306] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:49 2018] POST / => generated 673 bytes in 2262 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 309/307] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:52 2018] POST / => generated 673 bytes in 2019 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 310/308] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:54 2018] POST / => generated 673 bytes in 2345 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 311/309] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:56 2018] POST / => generated 673 bytes in 2029 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 312/310] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 18:59:58 2018] POST / => generated 673 bytes in 2304 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 313/311] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:00 2018] POST / => generated 673 bytes in 2049 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 314/312] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:02 2018] POST / => generated 673 bytes in 1856 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 315/313] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:04 2018] POST / => generated 673 bytes in 2241 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 316/314] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:07 2018] POST / => generated 673 bytes in 1853 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 317/315] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:08 2018] POST / => generated 673 bytes in 2278 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 318/316] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:11 2018] POST / => generated 673 bytes in 1866 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 319/317] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:13 2018] POST / => generated 673 bytes in 2268 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 320/318] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:15 2018] POST / => generated 673 bytes in 2041 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 321/319] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:17 2018] POST / => generated 673 bytes in 1832 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 322/320] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:19 2018] POST / => generated 673 bytes in 2239 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 323/321] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:21 2018] POST / => generated 673 bytes in 1883 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 324/322] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:23 2018] POST / => generated 673 bytes in 2347 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 325/323] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:25 2018] POST / => generated 673 bytes in 1907 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 326/324] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:27 2018] POST / => generated 673 bytes in 2268 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 327/325] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:29 2018] POST / => generated 673 bytes in 1912 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 328/326] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:31 2018] POST / => generated 673 bytes in 1813 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 329/327] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:33 2018] POST / => generated 673 bytes in 2229 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 330/328] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:35 2018] POST / => generated 673 bytes in 1859 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 331/329] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:37 2018] POST / => generated 673 bytes in 2258 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 332/330] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:39 2018] POST / => generated 673 bytes in 2004 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 333/331] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:41 2018] POST / => generated 673 bytes in 2379 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 334/332] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:44 2018] POST / => generated 673 bytes in 2050 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 335/333] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:46 2018] POST / => generated 673 bytes in 1890 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 336/334] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:48 2018] POST / => generated 673 bytes in 2298 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 337/335] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:50 2018] POST / => generated 673 bytes in 1893 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 338/336] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:52 2018] POST / => generated 673 bytes in 2285 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 339/337] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:54 2018] POST / => generated 673 bytes in 2026 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 340/338] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:56 2018] POST / => generated 673 bytes in 2352 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 341/339] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:00:59 2018] POST / => generated 673 bytes in 2092 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 342/340] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:01 2018] POST / => generated 673 bytes in 2328 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 343/341] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:03 2018] POST / => generated 673 bytes in 2038 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 344/342] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:05 2018] POST / => generated 673 bytes in 1882 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 345/343] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:07 2018] POST / => generated 673 bytes in 2239 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 346/344] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:09 2018] POST / => generated 673 bytes in 1942 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 347/345] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:11 2018] POST / => generated 673 bytes in 2339 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 348/346] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:13 2018] POST / => generated 673 bytes in 1895 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 349/347] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:15 2018] POST / => generated 673 bytes in 2302 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 350/348] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:18 2018] POST / => generated 673 bytes in 1976 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 351/349] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:20 2018] POST / => generated 673 bytes in 1870 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 352/350] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:22 2018] POST / => generated 673 bytes in 2266 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 353/351] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:24 2018] POST / => generated 673 bytes in 1885 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 354/352] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:26 2018] POST / => generated 673 bytes in 2267 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 355/353] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:28 2018] POST / => generated 673 bytes in 2720 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 356/354] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:31 2018] POST / => generated 673 bytes in 2156 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 357/355] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:33 2018] POST / => generated 673 bytes in 1920 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 358/356] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:35 2018] POST / => generated 673 bytes in 1817 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 359/357] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:37 2018] POST / => generated 673 bytes in 3290 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 360/358] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:40 2018] POST / => generated 673 bytes in 1910 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 361/359] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:42 2018] POST / => generated 673 bytes in 2331 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 362/360] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:44 2018] POST / => generated 673 bytes in 1942 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 363/361] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:46 2018] POST / => generated 673 bytes in 2251 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 364/362] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:48 2018] POST / => generated 673 bytes in 2013 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 365/363] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:50 2018] POST / => generated 673 bytes in 1834 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 366/364] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:52 2018] POST / => generated 673 bytes in 2248 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 367/365] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:54 2018] POST / => generated 673 bytes in 1879 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 368/366] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:56 2018] POST / => generated 673 bytes in 2276 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 369/367] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:01:59 2018] POST / => generated 673 bytes in 1905 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 370/368] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:00 2018] POST / => generated 673 bytes in 2317 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 371/369] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:03 2018] POST / => generated 673 bytes in 2033 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 372/370] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:05 2018] POST / => generated 673 bytes in 1853 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 373/371] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:07 2018] POST / => generated 673 bytes in 2257 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 374/372] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:09 2018] POST / => generated 673 bytes in 1880 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 375/373] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:11 2018] POST / => generated 673 bytes in 2305 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 376/374] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:13 2018] POST / => generated 673 bytes in 1997 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 377/375] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:15 2018] POST / => generated 673 bytes in 2374 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 378/376] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:17 2018] POST / => generated 673 bytes in 2027 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 379/377] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:19 2018] POST / => generated 673 bytes in 2284 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 380/378] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:22 2018] POST / => generated 673 bytes in 2007 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 381/379] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:24 2018] POST / => generated 673 bytes in 1843 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 382/380] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:26 2018] POST / => generated 673 bytes in 2233 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 383/381] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:28 2018] POST / => generated 673 bytes in 1887 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 384/382] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:30 2018] POST / => generated 673 bytes in 2548 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 385/383] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:32 2018] POST / => generated 673 bytes in 1913 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 386/384] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:34 2018] POST / => generated 673 bytes in 2193 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 387/385] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:36 2018] POST / => generated 673 bytes in 2019 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 388/386] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:38 2018] POST / => generated 673 bytes in 1894 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 389/387] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:40 2018] POST / => generated 673 bytes in 2244 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 390/388] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:43 2018] POST / => generated 673 bytes in 1871 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 391/389] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:44 2018] POST / => generated 673 bytes in 2273 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 392/390] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:47 2018] POST / => generated 673 bytes in 1884 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 393/391] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:49 2018] POST / => generated 673 bytes in 2169 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 394/392] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:51 2018] POST / => generated 673 bytes in 1971 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 395/393] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:53 2018] POST / => generated 673 bytes in 1820 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 396/394] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:55 2018] POST / => generated 673 bytes in 2242 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 397/395] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:02:57 2018] POST / => generated 673 bytes in 1887 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 398/396] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:03:37 2018] POST / => generated 673 bytes in 2349 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 399/397] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:16 2018] POST / => generated 673 bytes in 2237 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 400/398] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:18 2018] POST / => generated 673 bytes in 2278 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 401/399] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:20 2018] POST / => generated 673 bytes in 2026 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 402/400] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:22 2018] POST / => generated 673 bytes in 1844 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 403/401] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:24 2018] POST / => generated 673 bytes in 2272 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 404/402] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:26 2018] POST / => generated 673 bytes in 1868 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 405/403] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:28 2018] POST / => generated 673 bytes in 2281 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 406/404] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:30 2018] POST / => generated 673 bytes in 2174 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 407/405] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:33 2018] POST / => generated 673 bytes in 2450 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 408/406] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:35 2018] POST / => generated 673 bytes in 2059 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 409/407] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:37 2018] POST / => generated 673 bytes in 2331 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 410/408] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:39 2018] POST / => generated 673 bytes in 1986 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 411/409] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:41 2018] POST / => generated 673 bytes in 1879 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 412/410] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:43 2018] POST / => generated 673 bytes in 2237 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 413/411] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:46 2018] POST / => generated 673 bytes in 1878 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 414/412] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:47 2018] POST / => generated 673 bytes in 2305 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 415/413] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:50 2018] POST / => generated 673 bytes in 1846 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 416/414] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:52 2018] POST / => generated 673 bytes in 2244 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 417/415] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:54 2018] POST / => generated 673 bytes in 1934 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 418/416] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:56 2018] POST / => generated 673 bytes in 1811 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 419/417] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:08:58 2018] POST / => generated 673 bytes in 2241 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 420/418] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:00 2018] POST / => generated 673 bytes in 1871 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 421/419] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:02 2018] POST / => generated 673 bytes in 2272 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 422/420] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:04 2018] POST / => generated 673 bytes in 1971 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 423/421] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:06 2018] POST / => generated 673 bytes in 2303 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 424/422] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:08 2018] POST / => generated 673 bytes in 1976 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 425/423] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:10 2018] POST / => generated 673 bytes in 1827 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 426/424] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:12 2018] POST / => generated 673 bytes in 2257 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 427/425] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:14 2018] POST / => generated 673 bytes in 1907 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 428/426] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:16 2018] POST / => generated 673 bytes in 2319 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 429/427] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:19 2018] POST / => generated 673 bytes in 2032 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 430/428] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:21 2018] POST / => generated 673 bytes in 2398 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 431/429] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:23 2018] POST / => generated 673 bytes in 1949 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 432/430] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:25 2018] POST / => generated 673 bytes in 1854 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 433/431] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:27 2018] POST / => generated 673 bytes in 2120 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 434/432] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:29 2018] POST / => generated 673 bytes in 1844 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 435/433] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:31 2018] POST / => generated 673 bytes in 2268 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 436/434] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:33 2018] POST / => generated 673 bytes in 1883 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 437/435] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:35 2018] POST / => generated 673 bytes in 2279 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 438/436] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:37 2018] POST / => generated 673 bytes in 2019 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 439/437] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:39 2018] POST / => generated 673 bytes in 1865 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 440/438] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:41 2018] POST / => generated 673 bytes in 2260 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 441/439] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:43 2018] POST / => generated 673 bytes in 1922 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 442/440] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:45 2018] POST / => generated 673 bytes in 2272 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 443/441] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:47 2018] POST / => generated 673 bytes in 2026 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 444/442] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:50 2018] POST / => generated 673 bytes in 2335 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 445/443] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:52 2018] POST / => generated 673 bytes in 2044 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 446/444] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:54 2018] POST / => generated 673 bytes in 2344 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 447/445] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:56 2018] POST / => generated 673 bytes in 2097 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 448/446] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:09:58 2018] POST / => generated 673 bytes in 1902 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 449/447] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:00 2018] POST / => generated 673 bytes in 2346 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 450/448] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:03 2018] POST / => generated 673 bytes in 2025 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 451/449] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:05 2018] POST / => generated 673 bytes in 2402 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 452/450] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:07 2018] POST / => generated 673 bytes in 2031 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 453/451] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:09 2018] POST / => generated 673 bytes in 2316 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 454/452] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:11 2018] POST / => generated 673 bytes in 2069 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 455/453] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:13 2018] POST / => generated 673 bytes in 1882 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 456/454] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:15 2018] POST / => generated 673 bytes in 2273 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 457/455] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:18 2018] POST / => generated 673 bytes in 1917 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 458/456] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:20 2018] POST / => generated 673 bytes in 2292 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 459/457] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:22 2018] POST / => generated 673 bytes in 1985 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 460/458] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:24 2018] POST / => generated 673 bytes in 2362 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 461/459] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:26 2018] POST / => generated 673 bytes in 1954 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 462/460] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:28 2018] POST / => generated 673 bytes in 1833 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 463/461] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:30 2018] POST / => generated 673 bytes in 2239 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 464/462] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:32 2018] POST / => generated 673 bytes in 1805 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 465/463] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:34 2018] POST / => generated 673 bytes in 2143 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 466/464] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:36 2018] POST / => generated 673 bytes in 1946 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 467/465] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:38 2018] POST / => generated 673 bytes in 2330 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 468/466] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:40 2018] POST / => generated 673 bytes in 1975 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 469/467] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:42 2018] POST / => generated 673 bytes in 1855 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 470/468] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:44 2018] POST / => generated 673 bytes in 2297 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 471/469] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:47 2018] POST / => generated 673 bytes in 2547 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 472/470] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:49 2018] POST / => generated 673 bytes in 2256 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 473/471] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:51 2018] POST / => generated 673 bytes in 1881 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 474/472] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:53 2018] POST / => generated 673 bytes in 2275 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 475/473] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:55 2018] POST / => generated 673 bytes in 1984 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 476/474] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:10:57 2018] POST / => generated 673 bytes in 2341 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 477/475] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:00 2018] POST / => generated 673 bytes in 2006 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 478/476] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:02 2018] POST / => generated 673 bytes in 1833 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 479/477] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:04 2018] POST / => generated 673 bytes in 2250 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 480/478] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:06 2018] POST / => generated 673 bytes in 1918 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 481/479] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:08 2018] POST / => generated 673 bytes in 2343 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 482/480] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:10 2018] POST / => generated 673 bytes in 1953 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 483/481] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:12 2018] POST / => generated 673 bytes in 2225 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 484/482] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:14 2018] POST / => generated 673 bytes in 1954 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 485/483] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:16 2018] POST / => generated 673 bytes in 1866 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 486/484] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:18 2018] POST / => generated 673 bytes in 2248 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 487/485] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:20 2018] POST / => generated 673 bytes in 1812 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 488/486] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:22 2018] POST / => generated 673 bytes in 2283 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 489/487] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:25 2018] POST / => generated 673 bytes in 1979 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 490/488] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:27 2018] POST / => generated 673 bytes in 2344 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 491/489] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:29 2018] POST / => generated 673 bytes in 2021 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 492/490] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:31 2018] POST / => generated 673 bytes in 1845 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 493/491] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:33 2018] POST / => generated 673 bytes in 2249 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 494/492] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:35 2018] POST / => generated 673 bytes in 2008 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 495/493] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:37 2018] POST / => generated 673 bytes in 2272 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 496/494] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:39 2018] POST / => generated 673 bytes in 1831 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 497/495] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:41 2018] POST / => generated 673 bytes in 2243 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 498/496] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:11:43 2018] POST / => generated 673 bytes in 1911 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)
+[pid: 18062|app: 0|req: 499/497] 71.175.68.234 () {40 vars in 500 bytes} [Sat Apr 21 19:12:01 2018] POST / => generated 673 bytes in 1801 msecs (HTTP/1.1 200) 3 headers in 104 bytes (1 switches on core 0)

@@ -8,6 +8,7 @@ import petfinder
 import requests
 from flask_cors import CORS
 from model.ModelManager import mManager
+from pet import pManager
 import json
 #
 
@@ -21,7 +22,6 @@ class getJson(Resource):
             # Instantiate the client with your credentials.
             api = petfinder.PetFinderClient(api_key='90999df88cd81af6e271a7a661ee5bf6', api_secret='57d9d3da742d84021f892c623667db77')
             data = {}
-            found = 0
             # Parse the arguments
             parser = reqparse.RequestParser()
             parser.add_argument('url', type=str)
@@ -56,6 +56,7 @@ class getJson(Resource):
 
             # search for pets
             try:
+                found = 0
                 for pet in api.pet_find(
                     animal="dog", location=location, output="basic",
                     breed=breed, count=4,
@@ -67,28 +68,37 @@ class getJson(Resource):
                               found = 1
                               break
                     if found == 1:
-                          break
+                       break
 
-            except Exception:
+                data['name'] = pet['name']
+                data['sex'] = pet['sex']
+                data['age'] = pet['age']
+                data['size'] = pet['size']
+                data['shelter_contact'] = pet['contact']
+                data['photos'] = pet['photos']
+                data['breed'] = breed
+                data['prob'] = prob 
+                data['breed_info'] = search
+                return data
+            except Exception as e:
                    data['breed'] = breed
 		   data['prob'] = prob
                    data['breed_info'] = search
-                   data['petfinder_error'] = 'Cannot find a similar dog for adoption'
+                   data['petfinder_error'] = str(e)
                    return data
 
             # Package Info in dict/json object
-            data['breed'] = breed
-            data['prob'] = prob 
-            data['name'] = pet['name']
-	    data['shelterId'] = pet['shelterId']
-            data['sex'] = pet['sex']
-            data['age'] = pet['age']	
-            data['size'] = pet['size']     
-            data['breed_info'] = search
-            data['shelter Contact'] = pet['contact']
-            data['photos'] = pet['photos']
+            #data['breed'] = breed
+            #data['prob'] = prob 
+            #data['name'] = pet['name']
+            #data['sex'] = pet['sex']
+            #data['age'] = pet['age']	
+            #data['size'] = pet['size']     
+            #data['breed_info'] = search
+            #data['shelter_contact'] = pet['contact']
+            #data['photos'] = pet['photos']
          
-            return data
+            #return data
 
         except Exception as e:
             return {'error': str(e)}

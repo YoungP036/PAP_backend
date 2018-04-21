@@ -9,11 +9,6 @@ import os
 class mManager:
 	#@PARAMS
 	#the only parameter you need to pass is the URL of the firebase link
-	#
-	#Returns a STRING formatted as a json object would be with the top 5 results
-	#ie. {"wire-haired_fox_terrier": 0.0005762370419688523, "doberman": 0.00038512199535034597, 
-	# "otterhound": 0.004826174583286047, "irish_terrier": 0.010737168602645397, "giant_schnauzer": 0.0005427176365628839, 
-	# "airedale": 0.9818733930587769}
 	def queryModel(self, URL):
                 t1=0.3
                 t2=0.6
@@ -26,20 +21,24 @@ class mManager:
 
                         i=0
                         for index,row in data.iterrows():
-                                if i<=0:
-                                        if row['prob'] > t3:
-                                                breed = row['breed']
-                                        elif row['prob'] > t2:
-                                                breed = row['breed']
-                                        elif row['prob'] > t1:
-       #                                         breed = 'Model cannot identify the breed'
-						breed = row['breed']
-                                        else:
-#                                                breed = 'Model cannot identify the breed'
-						breed = row['breed']
-					breed=row['breed']
-					prob=row['prob']
-                                i+=1
+                                if i==0:
+					p1=row['prob']
+					b1=row['breed']
+				elif i==1:
+					p2=row['prob']
+				i+=1
+
+			prob=p1
+			#if top prob is below threshold, return unknown
+			if p1 < t1:
+				breed = 'Model cannot identify the breed'
+			#else check to make sure they are sufficiently far apart
+			else:
+				dif=p1-p2
+				if dif<0.2:
+					breed = 'Model cannot identify the breed'
+				else:
+					breed = b1
 			return breed,prob
                 else:
                         return 'download_error'

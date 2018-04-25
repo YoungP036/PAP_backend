@@ -1,9 +1,9 @@
-#Pic-a-Pup Backend Server
+# Pic-a-Pup Backend Server
 
 This server is was implemented for an Ubuntu 16.04.04 LTS system. We used an AWS EC2 instance.
 We implement using a Flask, Uwsbi, and Nginx stack.
 
-##Features
+## Features
 
 	The job of this server is to service requests from clients sent using HTTP POST. When it receives
 	an image URL, it will download that URL and send it through our dog breed identifier AI. If the AI
@@ -11,7 +11,7 @@ We implement using a Flask, Uwsbi, and Nginx stack.
 	basic information on that breed. Finally it will query PetFinder in order to find an available dog
 	of that breed in the nearby area. That data will then be encapsulated into one JSON object and
 	returned to the client.
-	
+
 ## Installation
 
 	1. git clone http://github.com/YoungP036/PAP_backend.git

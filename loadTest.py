@@ -9,6 +9,7 @@ def getThreadId():
    return libc.syscall(SYS_gettid)
 
 def make_request():
+	print("Spinnig thread " +str(threading.currentThread().ident))
 	addr='http://18.188.145.20'
 	payload = {'url':'http://photos.petfinder.com/photos/pets/40708150/1/?bust=1516322759&width=500&-x.jpg'}
 	header = {'content-type':'application/json'}
@@ -16,9 +17,9 @@ def make_request():
 	# response=json.loads(r.text)
 
 	if response['breed']!='Basenji':
-		print("TID #" +str(threading.currentThread())+ "INCORRECT")
+		print("TID #" +str(threading.currentThread().ident)+ "	returns INCORRECT")
 	else:
-		print("TID #" +str(threading.currentThread())+ "CORRECT")
+		print("TID #" +str(threading.currentThread().ident)+ "	returns CORRECT")
 
 def main():
 	if len(sys.argv)!=2:
@@ -26,6 +27,7 @@ def main():
 		return -1
 	else:
 		NUM_THREADS=int(sys.argv[1])
+		print("\n\nLoad testing using " +str(NUM_THREADS)+ " users\n")	
 		t0 = time.time()
 		pool = []
 		for i in range(NUM_THREADS):
@@ -36,6 +38,6 @@ def main():
 		for t in pool:
 			t.join()
 		t1=time.time()
-		print("Testing with " +str(NUM_THREADS)+ " concurrent users took " +str(t1-t0)+ " seconds")
+		print("\n\nTesting with " +str(NUM_THREADS)+ " concurrent user(s) took " +str(t1-t0)+ " seconds\n\n")
 if __name__ == "__main__":
 	main()

@@ -41,12 +41,15 @@ class mManager:
 					breed = b1
 			return breed,prob
                 else:
-                        return 'download_error'
+                        return 'download_error',0
 	
 	def getImage(self, URL):
-		r = requests.get(URL, allow_redirects=True)
-		random.seed(datetime.now())
-		rand=random.randint(0,2147483647)
-		path=str(rand)+'.jpg'
-		open(path, 'wb').write(r.content)
-		return path
+		try:
+			r = requests.get(URL, allow_redirects=True)
+			random.seed(datetime.now())
+			rand=random.randint(0,2147483647)
+			path=str(rand)+'.jpg'
+			open(path, 'wb').write(r.content)
+			return path
+		except Exception:
+			return 'download_error'

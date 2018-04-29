@@ -1,5 +1,6 @@
 
 from model.ModelManager import mManager
+import numpy as np
 import sys
 
 def main():
@@ -47,7 +48,8 @@ def main():
 		('https://ak9.picdn.net/shutterstock/videos/1006910179/thumb/1.jpg?i10c=img.resize(height:160)','labrador_retriever') #night time, angled face is lit
 	]
 
-	all_thresholds=[0.3, 0.35, 0.4, 0.45, 0.5, 0.6, 0.65, 0.7, 0.75, 0.8]
+	# all_thresholds=[0.3, 0.35, 0.4, 0.45, 0.5, 0.6, 0.65, 0.7, 0.75, 0.8]
+	all_thresholds = np.arange(0.0,0.99,0.01)
 	
 	model=mManager()
 	query_probabilities=[]
@@ -62,10 +64,7 @@ def main():
 			try:
 				url=image[0]
 				expected_label=image[1]
-				# print('URL: '+url)
-				# print('label: ' +expected_label)
 				actual_label,prob=model.queryModel(url)
-				# print('actual: ' +actual_label)
 				query_probabilities.append((prob,actual_label,expected_label))
 				fp_out.write(str(prob)+', '+actual_label+', '+expected_label+'\n')
 			except Exception as e:
@@ -73,6 +72,9 @@ def main():
 				return -1
 	with open(THRESHOLD_OUTPUT_PATH,'w') as fp_out:
 		#use each threshold to classify the raw probabilities, track performance in TP/TN/FP/FN
+		best_threshold=0.0
+		min_misclassify=9999999999
+		min_misclassify_percent=100
 		for threshold in all_thresholds:
 			#true pos, true neg, false pos, false neg
 			TP=0
@@ -96,8 +98,13 @@ def main():
 					else:
 						if actual_label==expected_label:
 							TP+=1
-
+			if FP+FN < min_misclassify:
+				min_misclassify=FP+FN
+				best_threshold=threshold
+				min_misclassify_percent=round((100.0*float(min_misclassify)/float(len(all_images))),2)
 			fp_out.write(str(threshold)+', '+str(TP)+', '+str(TN)+', '+str(FP)+', '+str(FN)+'\n')
+	print('\n\nBest threshold = ' + str(best_threshold))
+	print('Misclassify percentage = ' + str(min_misclassify_percent) + "%")
 	print("\nExiting gracefully...")
 if __name__ == "__main__":
 	main()

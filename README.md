@@ -19,6 +19,7 @@ All python dependencies are enumerated in the requirements.txt file.
 	2. sudo apt-get install python python-pip nginx-full uwsgi
 	3. cd /path/to/PAP_backend	
 	4. sudo pip install -r requirements.txt
+	5. sudo pip install petfinder wikipedia flask flask_cors
 
 ## Start Server
 
